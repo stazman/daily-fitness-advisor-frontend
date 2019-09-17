@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import JournalInput from './JournalInput'
 
 class Journal extends Component {
   render(){
@@ -6,7 +7,7 @@ class Journal extends Component {
       <div>
         <h2>Your Journal</h2>
         <br></br>
-          {/* Input component */}
+          <JournalInput />
         <br></br>
         <div>
           {/* Returns all entries, including newest one */}

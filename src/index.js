@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
+import manageJournal from './reducers/manageJournal';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 

@@ -2,6 +2,23 @@ import React, {Component} from 'react';
 import JournalInput from './JournalInput'
 
 class Journal extends Component {
+
+  constructor(){
+    super();
+    this.state = {
+      journalEntries: []
+    }
+  }
+
+  fetchJournalEntries = () => {
+    fetch('http://localhost:3001/api/v1/journals', {
+      accept: 'application/json'
+    })
+    .then( res => res.json())
+    .then(json => console.log(json))
+  }
+
+
   render(){
     return (
       <div>
@@ -15,6 +32,11 @@ class Journal extends Component {
       </div>
     )
   }
+
+  componentDidMount() {
+    this.fetchJournalEntries()
+  }
+
 }
 
 export default Journal;

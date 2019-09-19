@@ -20,6 +20,7 @@ function App() {
           />
         }
         <div className="App">
+          <JournalContainer />
         </div>
         </React.Fragment>
     </Router>

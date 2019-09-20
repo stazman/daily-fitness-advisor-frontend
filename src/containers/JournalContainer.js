@@ -1,17 +1,25 @@
 import React, {Component} from 'react';
-import JournalInput from '../JournalInput';
+import {connect} from 'react-redux'
+import JournalInput from '../components/JournalInput';
 import Journal from '../components/Journal';
 
 class JournalContainer extends Component {
 
-    render(){
-      return (
-        <div>
-          <JournalInput />
-          <Journal />
-        </div>
-      )
-    }
+  render(){
+    return (
+      <div>
+        <JournalInput />
+        <Journal />
+      </div>
+    )
+  }
 }
 
-export default JournalContainer;
+const mapStateToProps = state => {
+  return {
+    journalEntries: state.journalEntries
+  }
+
+}
+
+export default connect (mapStateToProps)(JournalContainer);

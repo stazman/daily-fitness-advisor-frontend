@@ -4,10 +4,14 @@ const Journal = (props) => {
 
     return (
       <div>
-        <h2>Your Journal</h2>
-        <br></br>
         <div>
-          {/* Returns all entries, including newest one */}
+          { 
+            props.journalEntries.map(journalEntry => 
+              <li key={journalEntry.id}> 
+                {journalEntry.content} 
+              </li>
+            )
+          }
         </div>
       </div>
     )

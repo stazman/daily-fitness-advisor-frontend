@@ -13,8 +13,15 @@ class JournalContainer extends Component {
   render(){
     return (
       <div>
-        <Journal />
+        <br></br>
+        <h2>
+          Your Journal
+        </h2>
         <JournalInput />
+        <br></br><br></br><br></br>
+        <Journal 
+          journalEntries={this.props.journalEntries} 
+        />
       </div>
     )
   }

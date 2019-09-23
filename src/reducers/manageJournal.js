@@ -1,16 +1,15 @@
-function manageJournal(state = {
-  journalEntries: []
-}, action) {
+function manageJournal(state = {journalEntries: []}, action) {
   switch (action.type) {
     case 'FETCH_JOURNAL_ENTRIES':
       return {
         journalEntries: action.payload
       };
-    // case 'ADD_JOURNAL_ENTRY':
-    //   return { journalEntries: state.journalEntries.concat(action.payload.text) };
-    
-      default:
-        return state;
+    case 'ADD_JOURNAL_ENTRY':
+      return {
+        ...state, journalEntries: [...state.journalEntries, action.payload]
+      }
+    default:
+      return state;
   }
 }
 

@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import {connect} from 'react-redux'
 import NavBar from './NavBar.js'
 import Journal from './Journal.js'
 import JournalContainer from '../containers/JournalContainer'

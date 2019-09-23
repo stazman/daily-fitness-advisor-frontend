@@ -1,43 +1,36 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
+import {addJournalEntry} from '../actions/addJournalEntry'
 
 class JournalInput extends Component {
 
-  constructor(){
-    super();
-    this.state = {
-      journalEntry: ''
-    }
+  state = {
+    content: ''
   }
 
   handleChange = (e) => {
     this.setState({
-      journalEntry: e.target.value
+      content: e.target.value
     })
   }
 
   handleSubmit = (e) => {
-    debugger
     e.preventDefault();
-    // this.props.addJournalEntry(this.state);
+    this.props.addJournalEntry(this.state);
   }
 
   render(){
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <p>
-            <label>
-              Add a Journal Entry
-            </label>
-            <br></br><br></br>
-            <input
-              type='textarea'
-              placeholder='New Entry'
-              onChange={e => this.handleChange(e)}
-              //check not having to pass e here
-              value={this.state.journalEntry}
-            />
-          </p>
+          <label>Add a Journal Entry:</label>
+          <br></br><br></br>
+          <input
+            type='textarea'
+            placeholder='New Entry'
+            onChange={e => this.handleChange(e)}
+            value={this.state.content}
+          />
           <input type="submit" />
         </form>
       </div>
@@ -45,4 +38,4 @@ class JournalInput extends Component {
   }
 }
 
-export default JournalInput;
+export default connect(null, {addJournalEntry})(JournalInput);

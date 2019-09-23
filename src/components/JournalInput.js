@@ -17,6 +17,9 @@ class JournalInput extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     this.props.addJournalEntry(this.state);
+    this.setState({
+      content: ''
+    })
   }
 
   render(){

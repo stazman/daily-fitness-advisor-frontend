@@ -5,19 +5,20 @@ class JournalInput extends Component {
   constructor(){
     super();
     this.state = {
-      text: ''
+      journalEntry: ''
     }
   }
 
   handleChange = (e) => {
     this.setState({
-      text: e.target.value
+      journalEntry: e.target.value
     })
   }
 
   handleSubmit = (e) => {
+    debugger
     e.preventDefault();
-    this.props.addJournalEntry(this.state);
+    // this.props.addJournalEntry(this.state);
   }
 
   render(){
@@ -31,8 +32,10 @@ class JournalInput extends Component {
             <br></br><br></br>
             <input
               type='textarea'
+              placeholder='New Entry'
               onChange={e => this.handleChange(e)}
-              value={this.state.text}
+              //check not having to pass e here
+              value={this.state.journalEntry}
             />
           </p>
           <input type="submit" />

@@ -1,20 +1,16 @@
-import React from 'react';
+import React from 'react'
+import JournalContainer from '../containers/JournalContainer'
 
-const Journal = (props) => {
-
-    return (
-      <div>
-        <div>
-          { 
-            props.journalEntries.map(journalEntry => 
-              <li key={journalEntry.id}> 
-                {journalEntry.content} 
-              </li>
-            )
-          }
-        </div>
-      </div>
-    )
-  }
+const Journal = () => {
+  return (
+    <div>
+      <h2>
+        Your Journal
+      </h2>
+      <br></br>
+      <JournalContainer />
+    </div>
+  )
+}
 
 export default Journal;

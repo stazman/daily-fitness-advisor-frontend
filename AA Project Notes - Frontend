@@ -1,0 +1,74 @@
+CURRENT FEATURE (ongoing):
+
+Make all journal entries a separate component
+
+Give each journal entry its own individual route and component
+
+
+CURRENT TASKS (ongoing):
+
+
+DONE Renames all-journal-entries feature Journal to AllJournalEntries; creates new component Journal; stubs component for an individual journal entry; adds Project Notes - Frontend
+
+
+
+
+
+
+
+
+
+
+
+
+FUTURE TASKS (ongoing):
+
+Add date to journal feature
+
+Add advisor forms and output
+
+Add weight tracker feature
+
+Add resources feature
+
+Add community feature
+
+Add date to journal feature
+
+Moves store to separate component
+
+Adds, installs logos to manifest.json; adds relevant link to index.html
+
+
+
+
+COMPLETED TASKS:
+
+
+
+
+*** Below is before frontend/backend notes separation
+
+DONE Clears new journal entry input fields after submission
+DONE Persists new journal entries to Rails backend; renders new journal entries to journal entry list on submission; removes unneeded code
+DONE Adds pry gem; adds .DS_store files to gitignore; removes unneeded code
+DONE Edits JournalInput for addJournalEntry action
+DONE Renders list of journal entries
+DONE Imports connect for journal feature; places JournalEntries appropriately; maps journalEntries state to props
+DONE Creates containers, actions folders; separates Journal component concerns into JournalContainer, fetchJournalEntries
+DONE Imports compose; sets up store for thunk, compose, redux devtools
+DONE Installs, imports thunk, applyMiddleware
+DONE 'Fetches persisted Journal instances successfully'
+DONE Adds serializer for journal
+DONE Creates, stubs JournalInput
+DONE Creates, stubs Journal
+DONE Creates, adds Journal link to Navbar
+DONE Adds Navbar, Journal routes to App
+DONE Adds react-router-dom
+DONE Adds store to index.js; creates, moves App to components folder
+DONE Adds redux, react-redux
+DONE Adds rack-cors gem, configuration
+DONE Changes directory maneuvering in Procfile
+DONE Successfully renders to React server
+
+

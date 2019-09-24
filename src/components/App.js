@@ -6,8 +6,6 @@ import {
 } from 'react-router-dom';
 import NavBar from './NavBar.js'
 import Journal from './Journal.js'
-import JournalContainer from '../containers/JournalContainer'
-
 
 function App() {
   return (
@@ -21,7 +19,6 @@ function App() {
           />
         }
         <div className="App">
-          <JournalContainer />
         </div>
         </React.Fragment>
     </Router>

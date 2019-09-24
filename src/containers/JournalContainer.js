@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux'
 import {fetchJournalEntries} from '../actions/fetchJournalEntries'
 import JournalInput from '../components/JournalInput';
-import Journal from '../components/Journal';
+import AllJournalEntries from '../components/AllJournalEntries';
+
 
 class JournalContainer extends Component {
 
@@ -14,12 +15,9 @@ class JournalContainer extends Component {
     return (
       <div>
         <br></br>
-        <h2>
-          Your Journal
-        </h2>
         <JournalInput />
         <br></br><br></br><br></br>
-        <Journal 
+        <AllJournalEntries 
           journalEntries={this.props.journalEntries} 
         />
       </div>

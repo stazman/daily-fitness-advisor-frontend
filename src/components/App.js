@@ -1,15 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import NavBar from './NavBar.js'
 import Journal from './Journal.js'
+import JournalContainer from '../containers/JournalContainer';
 
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  render(){
+    return (
       <React.Fragment>
       <NavBar />
         {
@@ -18,11 +16,11 @@ function App() {
             component={Journal}
           />
         }
-        <div className="App">
-        </div>
-        </React.Fragment>
-    </Router>
-  );
+      <div className="App">
+        <JournalContainer />
+      </div>
+      </React.Fragment>
+    );
+  }
 }
-
 export default App;

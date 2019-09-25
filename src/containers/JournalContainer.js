@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux'
+import {Route} from 'react-router-dom'
 import {fetchJournalEntries} from '../actions/fetchJournalEntries'
 import JournalInput from '../components/JournalInput';
 import AllJournalEntries from '../components/AllJournalEntries';
@@ -15,10 +16,14 @@ class JournalContainer extends Component {
     return (
       <div>
         <br></br>
-        <JournalInput />
+        <Route 
+          path='/journals/new'
+          component={JournalInput}
+        />
         <br></br><br></br><br></br>
-        <AllJournalEntries 
-          journalEntries={this.props.journalEntries} 
+        <Route
+          exact path='/journals/'
+          render={() => <AllJournalEntries journalEntries={this.props.journalEntries} />}
         />
       </div>
     )

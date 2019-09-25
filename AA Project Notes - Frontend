@@ -1,11 +1,10 @@
 CURRENT FEATURE (ongoing):
 
 
-DONE Gives individual journal entries their own component
 
 
-Gives journal entry form a route
-Gives individual journal entries their own route
+
+DONE Gives journal entry form, individual journal entries their own routes
 
 
 CURRENT TASKS (ongoing):
@@ -40,7 +39,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 Make all journal entries a separate component:
-DONE Renames all-journal-entries feature Journal to AllJournalEntries; creates new component Journal; stubs component for an individual journal entry; adds Project Notes - Frontend
+DONE Gives individual journal entries their own componentDONE Renames all-journal-entries feature Journal to AllJournalEntries; creates new component Journal; stubs component for an individual journal entry; adds Project Notes - Frontend
 
 
 *** Below is before frontend/backend notes separation

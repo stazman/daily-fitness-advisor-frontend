@@ -1,20 +1,14 @@
 CURRENT FEATURE (ongoing):
 
-Make all journal entries a separate component
 
-Give each journal entry its own individual route and component
+DONE Gives individual journal entries their own component
+
+
+Gives journal entry form a route
+Gives individual journal entries their own route
 
 
 CURRENT TASKS (ongoing):
-
-
-DONE Renames all-journal-entries feature Journal to AllJournalEntries; creates new component Journal; stubs component for an individual journal entry; adds Project Notes - Frontend
-
-
-
-
-
-
 
 
 
@@ -22,6 +16,7 @@ DONE Renames all-journal-entries feature Journal to AllJournalEntries; creates n
 
 
 FUTURE TASKS (ongoing):
+
 
 Add date to journal feature
 
@@ -44,7 +39,8 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
-
+Make all journal entries a separate component:
+DONE Renames all-journal-entries feature Journal to AllJournalEntries; creates new component Journal; stubs component for an individual journal entry; adds Project Notes - Frontend
 
 
 *** Below is before frontend/backend notes separation
@@ -70,5 +66,3 @@ DONE Adds redux, react-redux
 DONE Adds rack-cors gem, configuration
 DONE Changes directory maneuvering in Procfile
 DONE Successfully renders to React server
-
-

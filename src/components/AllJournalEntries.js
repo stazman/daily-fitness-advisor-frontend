@@ -1,4 +1,5 @@
 import React from 'react';
+import JournalEntry from './JournalEntry'
 
 const AllJournalEntries = (props) => {
 
@@ -8,7 +9,7 @@ const AllJournalEntries = (props) => {
           { 
             props.journalEntries.map(journalEntry => 
               <li key={journalEntry.id}> 
-                {journalEntry.content} 
+                <JournalEntry journalEntry={journalEntry} />
               </li>
             )
           }

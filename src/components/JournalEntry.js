@@ -4,10 +4,7 @@ const JournalEntry = (props) => {
 
   return (
     <div>
-      "hello"
-      {/* {props.journalEntries.map(journalEntry => 
-        <li key={journalEntry.id}>{journalEntry.content}</li>
-      )} */}
+      {props.journalEntry.content}
     </div>
   )
 }

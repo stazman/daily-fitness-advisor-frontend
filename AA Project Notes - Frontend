@@ -5,9 +5,8 @@ JOURNAL
 
 CURRENT TASKS (ongoing):
 
-DONE Creates routes and renders distinct views for new journal entry form, a list of all journal entries with working links to each journal entry, and each journal entry
 
-Adds link to make a new journal entry; link directs to url for new journal entry; adds link to view all journal entries; link directs to url for all journal entries
+DONE Adds working links to views of new journal entry form, all journal entries
 
 
 FUTURE TASKS (ongoing):
@@ -40,6 +39,8 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 
 COMPLETED TASKS:
+
+DONE Creates routes and renders distinct views for new journal entry form, a list of all journal entries with working links to each journal entry, and each journal entry
 
 Make all journal entries, form into separate components:
 DONE Gives journal entry form, individual journal entries their own routes

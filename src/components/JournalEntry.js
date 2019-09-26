@@ -1,4 +1,5 @@
 import React from 'react'
+import {Redirect} from 'react-router-dom'
 
 const JournalEntry = (props) => {
 
@@ -6,6 +7,7 @@ const JournalEntry = (props) => {
 
   return (
     <li>
+      {journalEntry ? null : <Redirect to='/journals' />}
       {journalEntry ? journalEntry.content : null}
     </li>
   )

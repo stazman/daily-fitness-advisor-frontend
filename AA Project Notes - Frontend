@@ -3,10 +3,10 @@ CURRENT FEATURE (ongoing):
 JOURNAL
 
 
-CURRENT TASKS (ongoing):
+CURRENT FRONTEND TASKS (ongoing):
 
+DONE Redirects to all journal entries view if id params entered manually, not exists
 
-DONE Adds working links to views of new journal entry form, all journal entries
 
 
 FUTURE TASKS (ongoing):
@@ -14,6 +14,8 @@ FUTURE TASKS (ongoing):
 
 
 JOURNAL
+
+
 Styles NavLink links on Journal page as buttons
  
 Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method)
@@ -40,6 +42,8 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
+
+DONE Adds working links to views of new journal entry form, all journal entries
 DONE Creates routes and renders distinct views for new journal entry form, a list of all journal entries with working links to each journal entry, and each journal entry
 
 Make all journal entries, form into separate components:

@@ -2,10 +2,12 @@ import React from 'react'
 
 const JournalEntry = (props) => {
 
+  let journalEntry = props.journalEntries[props.match.params.id - 1];
+
   return (
-    <div>
-      {props.journalEntry.content}
-    </div>
+    <li>
+      {journalEntry ? journalEntry.content : null}
+    </li>
   )
 }
 

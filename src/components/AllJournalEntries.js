@@ -1,19 +1,19 @@
 import React from 'react';
-import JournalEntry from './JournalEntry'
+import {Route, Link} from 'react-router-dom'
 
 const AllJournalEntries = (props) => {
 
     return (
       <div>
-        <div>
-          { 
-            props.journalEntries.map(journalEntry => 
-              <li key={journalEntry.id}> 
-                <JournalEntry journalEntry={journalEntry} />
-              </li>
-            )
-          }
-        </div>
+        { 
+          props.journalEntries.map(journalEntry => 
+            <div key={journalEntry.id}> 
+              <Link to={`/journals/${journalEntry.id}`}>
+                {journalEntry.content}
+              </Link>
+            </div>
+          )
+        }                
       </div>
     )
   }

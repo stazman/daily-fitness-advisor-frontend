@@ -4,6 +4,7 @@ import {Route} from 'react-router-dom'
 import {fetchJournalEntries} from '../actions/fetchJournalEntries'
 import JournalInput from '../components/JournalInput';
 import AllJournalEntries from '../components/AllJournalEntries';
+import JournalEntry from '../components/JournalEntry'
 
 
 class JournalContainer extends Component {
@@ -15,15 +16,17 @@ class JournalContainer extends Component {
   render(){
     return (
       <div>
-        <br></br>
         <Route 
-          path='/journals/new'
+          exact path='/journals/new'
           component={JournalInput}
         />
-        <br></br><br></br><br></br>
+        <Route 
+          exact path='/journals/:id'
+          render={(routerProps) => <JournalEntry {...routerProps} journalEntries={this.props.journalEntries} />}
+        />
         <Route
           exact path='/journals/'
-          render={() => <AllJournalEntries journalEntries={this.props.journalEntries} />}
+          render={(routerProps) => <AllJournalEntries {...routerProps} journalEntries={this.props.journalEntries} />}
         />
       </div>
     )

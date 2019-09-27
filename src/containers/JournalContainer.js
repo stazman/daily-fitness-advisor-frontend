@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux'
-import {Route} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import {fetchJournalEntries} from '../actions/fetchJournalEntries'
 import JournalInput from '../components/JournalInput';
 import AllJournalEntries from '../components/AllJournalEntries';
@@ -16,18 +16,20 @@ class JournalContainer extends Component {
   render(){
     return (
       <div>
-        <Route 
-          exact path='/journals/new'
-          component={JournalInput}
-        />
-        <Route 
-          exact path='/journals/:id'
-          render={(routerProps) => <JournalEntry {...routerProps} journalEntries={this.props.journalEntries} />}
-        />
-        <Route
-          exact path='/journals/'
-          render={(routerProps) => <AllJournalEntries {...routerProps} journalEntries={this.props.journalEntries} />}
-        />
+        <Switch>
+          <Route 
+            exact path='/journals/new'
+            component={JournalInput}
+          />
+          <Route 
+            exact path='/journals/:id'
+            render={(routerProps) => <JournalEntry {...routerProps} journalEntries={this.props.journalEntries} />}
+          />
+          <Route
+            exact path='/journals/'
+            render={(routerProps) => <AllJournalEntries {...routerProps} journalEntries={this.props.journalEntries} />}
+          />
+        </Switch>
       </div>
     )
   }

@@ -5,8 +5,7 @@ JOURNAL
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Redirects to all journal entries view if id params entered manually, not exists
-
+DONE  Wraps journals, journal form links in Switch statement to make routes more precise
 
 
 FUTURE TASKS (ongoing):
@@ -14,13 +13,13 @@ FUTURE TASKS (ongoing):
 
 
 JOURNAL
-
-
 Styles NavLink links on Journal page as buttons
  
 Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method)
   Adds search bar to Journal
   
+Add date to journal feature
+
 
 
 Add advisor forms and output
@@ -31,7 +30,6 @@ Add resources feature
 
 Add community feature
 
-Add date to journal feature
 
 Moves store to separate component
 
@@ -42,6 +40,9 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
+
+DONE Redirects to all journal entries view if id params entered manually, not exists
+DONE Redirects to all journal entries view if id params entered manually, not exists
 
 DONE Adds working links to views of new journal entry form, all journal entries
 DONE Creates routes and renders distinct views for new journal entry form, a list of all journal entries with working links to each journal entry, and each journal entry

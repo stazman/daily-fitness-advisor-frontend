@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {addJournalEntry} from '../actions/addJournalEntry'
+import {
+	withRouter
+} from 'react-router-dom';
+
 
 class JournalInput extends Component {
 
@@ -20,6 +24,7 @@ class JournalInput extends Component {
     this.setState({
       content: ''
     })
+    this.props.history.push('/journals');
   }
 
   render(){

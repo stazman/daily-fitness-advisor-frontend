@@ -5,7 +5,9 @@ JOURNAL
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE  Wraps journals, journal form links in Switch statement to make routes more precise
+
+DONE Renders all journal entries most recent entry first; each link to an entry renders cohtent, route correctly
+
 
 
 FUTURE TASKS (ongoing):
@@ -13,6 +15,12 @@ FUTURE TASKS (ongoing):
 
 
 JOURNAL
+Fetches just added entry to journal in journals form
+Adds delete functionality to newly added journal entry
+Adds update functionality to newly added journal entry
+
+Add NavLink to all journal entries in journals form
+
 Styles NavLink links on Journal page as buttons
  
 Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method)
@@ -40,7 +48,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
-
+DONE Wraps journals, journal form links in Switch statement to make routes more precise
 DONE Redirects to all journal entries view if id params entered manually, not exists
 DONE Redirects to all journal entries view if id params entered manually, not exists
 

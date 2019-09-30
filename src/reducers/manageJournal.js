@@ -3,7 +3,7 @@ function manageJournal(state = {journalEntries: []}, action) {
     case 'FETCH_JOURNAL_ENTRIES':
       return {
         journalEntries: action.payload
-      };
+      }
 
     case 'ADD_JOURNAL_ENTRY':
       return {
@@ -11,10 +11,11 @@ function manageJournal(state = {journalEntries: []}, action) {
       }
 
     case 'DELETE_JOURNAL_ENTRY':
-      // return {journalEntries: state.journalEntries.filter(journalEntry => journalEntry !== action.payload)}
+      return {journalEntries: state.journalEntries.filter(journalEntry => journalEntry.id !== action.payload.id)}
+
     default:
-      return state;
+      return state
   }
 }
 
-export default manageJournal;
+export default manageJournal

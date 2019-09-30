@@ -6,11 +6,9 @@ JOURNAL
 CURRENT FRONTEND TASKS (ongoing):
 
 Adds delete functionality to list of journal entries
-  DONE Renders delete button for each journal entry; event handler successfully passes entry id to delete action creator; stubs delete action
-  
-  Deletes journal entry on click
+  DONE Deletes journal entry on click
 
-Adds edit functionality to list of journal entries
+Adds edit/update functionality to list of journal entries
 
 Create basic CSS/Bootstrap structure for home page, journal features
   Creates Home page link, routes
@@ -60,6 +58,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
+DONE Renders delete button for each journal entry; event handler successfully passes entry id to delete action creator; stubs delete action
 DONE Redirects to all journals view when new entry is submitted
 DONE Renders all journal entries most recent entry first; each link to an entry renders cohtent, route correctlyDONE Wraps journals, journal form links in Switch statement to make routes more precise
 DONE Redirects to all journal entries view if id params entered manually, not exists

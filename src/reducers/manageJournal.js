@@ -4,10 +4,14 @@ function manageJournal(state = {journalEntries: []}, action) {
       return {
         journalEntries: action.payload
       };
+
     case 'ADD_JOURNAL_ENTRY':
       return {
         ...state, journalEntries: [...state.journalEntries, action.payload]
       }
+
+    case 'DELETE_JOURNAL_ENTRY':
+      // return {journalEntries: state.journalEntries.filter(journalEntry => journalEntry !== action.payload)}
     default:
       return state;
   }

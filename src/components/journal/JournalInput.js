@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {addJournalEntry} from '../actions/addJournalEntry'
+import {addJournalEntry} from '../../actions/addJournalEntry'
 import {
 	withRouter
 } from 'react-router-dom';

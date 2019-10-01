@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux'
 import {Route, Switch} from 'react-router-dom'
 import {fetchJournalEntries} from '../actions/fetchJournalEntries'
-import JournalInput from '../components/JournalInput';
-import AllJournalEntries from '../components/AllJournalEntries';
-import JournalEntry from '../components/JournalEntry'
+import JournalInput from '../components/journal/JournalInput';
+import AllJournalEntries from '../components/journal/AllJournalEntries';
+import JournalEntry from '../components/journal/JournalEntry'
 
 
 class JournalContainer extends Component {

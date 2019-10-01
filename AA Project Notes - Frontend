@@ -5,7 +5,9 @@ JOURNAL
 
 CURRENT FRONTEND TASKS (ongoing):
 
-  DONE Adds navlinks to planned components; stubs App, planned components
+  
+DONE Moves journal feature files to appropriate components subdirectory
+
 
 Create basic CSS/Bootstrap structure for home page, journal features
   
@@ -60,8 +62,14 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 
+
+
+
+DONE Adds navlinks to planned components; stubs App, planned components
+
 Adds delete functionality to list of journal entries
   DONE Deletes journal entry on click
+
 DONE Renders delete button for each journal entry; event handler successfully passes entry id to delete action creator; stubs delete action
 DONE Redirects to all journals view when new entry is submitted
 DONE Renders all journal entries most recent entry first; each link to an entry renders cohtent, route correctlyDONE Wraps journals, journal form links in Switch statement to make routes more precise

@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import '../App.css';
 import {Route} from 'react-router-dom';
-import NavBar from './NavBar.js'
+import NavBar from './NavBar'
 import Advisor from './advisor/Advisor'
 import Trackers from './trackers/Trackers'
-import Journal from './Journal'
+import Journal from './journal/Journal'
 import JournalContainer from '../containers/JournalContainer';
 import Resources from './resources/Resources'
 import Community from './community/Community'

@@ -5,10 +5,14 @@ const NavBar = () => {
   return (
     <div className='navbar'>
       <ul>
+        <li><NavLink to="/">Advisor</NavLink></li>
+        <li><NavLink to="/trackers">Trackers</NavLink></li>
         <li><NavLink to="/journal">Journal</NavLink></li>
+        <li><NavLink to="/resources">Resources</NavLink></li>
+        <li><NavLink to="/communities">Community</NavLink></li>
       </ul>
     </div>
   );
 }
 
-export default NavBar;
+export default NavBar

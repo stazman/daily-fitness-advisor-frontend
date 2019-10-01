@@ -5,19 +5,16 @@ JOURNAL
 
 CURRENT FRONTEND TASKS (ongoing):
 
-Adds delete functionality to list of journal entries
-  DONE Deletes journal entry on click
-
-Adds edit/update functionality to list of journal entries
+  DONE Adds navlinks to planned components; stubs App, planned components
 
 Create basic CSS/Bootstrap structure for home page, journal features
+  
   Creates Home page link, routes
   Creates mobile-first bootstrap design
   Creates basic style for home page
   Creates basic style for journal page
 
-Styles NavLink links on Journal page as buttons
- 
+
 
 
 FUTURE TASKS (ongoing):
@@ -29,6 +26,10 @@ Creates all basic components to add and view list of current resources (For comp
 
 
 JOURNAL
+
+Styles NavLink links on Journal page as buttons
+
+Adds edit/update functionality to list of journal entries, individual entries?
 
 Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method)
   Adds search bar to Journal
@@ -58,6 +59,9 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
+
+Adds delete functionality to list of journal entries
+  DONE Deletes journal entry on click
 DONE Renders delete button for each journal entry; event handler successfully passes entry id to delete action creator; stubs delete action
 DONE Redirects to all journals view when new entry is submitted
 DONE Renders all journal entries most recent entry first; each link to an entry renders cohtent, route correctlyDONE Wraps journals, journal form links in Switch statement to make routes more precise

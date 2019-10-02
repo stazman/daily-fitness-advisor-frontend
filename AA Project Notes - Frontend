@@ -1,30 +1,22 @@
 CURRENT FEATURE (ongoing):
 
-JOURNAL
+RESOURCES
 
 
 CURRENT FRONTEND TASKS (ongoing):
 
-  
-DONE Moves journal feature files to appropriate components subdirectory
 
-
-Create basic CSS/Bootstrap structure for home page, journal features
-  
-  Creates Home page link, routes
-  Creates mobile-first bootstrap design
-  Creates basic style for home page
-  Creates basic style for journal page
-
-
+DONE Completes Resources home page component content; edits Resources, Community home pages paths
 
 
 FUTURE TASKS (ongoing):
 
 
-RESOURCES
 
-Creates all basic components to add and view list of current resources (For completed app and Flatiron minimal viable product final project requirements)
+Create basic CSS/Bootstrap structure for home page, journal features
+  Creates mobile-first bootstrap design
+  Creates basic style for home page
+  Creates basic style for journal page
 
 
 JOURNAL
@@ -62,9 +54,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 
-
-
-
+DONE Moves journal feature files to appropriate components subdirectory
 DONE Adds navlinks to planned components; stubs App, planned components
 
 Adds delete functionality to list of journal entries

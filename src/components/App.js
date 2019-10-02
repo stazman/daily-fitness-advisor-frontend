@@ -34,14 +34,14 @@ class App extends Component {
         }
         {
           <Route 
-            exact path='/resources' 
+            exact path='/resource_home' 
             component={Resources}
             //(Rather than a button on the bottom of the screen, may go in a dropdown with login, settings links/buttons)
           />
         }
         {
           <Route 
-            exact path='/communities' 
+            exact path='/community' 
             component={Community}
           />
         }

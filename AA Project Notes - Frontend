@@ -5,7 +5,8 @@ RESOURCES
 
 CURRENT FRONTEND TASKS (ongoing):
 
-Creates Resources container; fetches 
+
+DONE Creates reducer, adds it to store
 
 
 FUTURE TASKS (ongoing):
@@ -53,7 +54,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 
-
+DONE Creates Resources container; renders resources instances on fetch
 DONE Completes Resources home page component content; edits Resources, Community home pages paths
 DONE Moves journal feature files to appropriate components subdirectory
 DONE Adds navlinks to planned components; stubs App, planned components

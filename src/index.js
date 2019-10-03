@@ -1,19 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
-import manageJournal from './reducers/manageJournal';
-import {Provider} from 'react-redux';
-import {createStore, applyMiddleware, compose} from 'redux';
-import {BrowserRouter as Router} from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './components/App'
+import manageJournal from './reducers/manageJournal'
+import manageResources from './reducers/manageResources'
+import {Provider} from 'react-redux'
+import {createStore, applyMiddleware, compose} from 'redux'
+import {BrowserRouter as Router} from 'react-router-dom'
 import thunk from 'redux-thunk'
+import { combineReducers } from 'redux'
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
+const rootReducer = combineReducers({
+  manageJournal,
+  manageResources
+})
+
 let store = createStore(
-  manageJournal, 
+  rootReducer,
   composeEnhancer(applyMiddleware(thunk))
-);
+)
 
 ReactDOM.render(
   <Provider store={store}>
@@ -22,4 +29,4 @@ ReactDOM.render(
     </Router>
   </Provider>,
   document.getElementById('root')
-);
+)

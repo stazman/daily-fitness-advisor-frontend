@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
  
-const Journal = () => {
+const JournalHome = () => {
   return (
     <div>
       <h3>
@@ -18,4 +18,4 @@ const Journal = () => {
   )
 }
  
-export default Journal;
+export default JournalHome

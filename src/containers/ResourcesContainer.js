@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import {fetchResources} from '../actions/fetchResources'
+import ResourceInput from '../components/resources/ResourceInput'
 
-
-class ResourcesContainer extends Component {
+class ResourcesContainer extends React.Component {
 
   componentDidMount(){
     this.props.fetchResources()
@@ -12,6 +12,7 @@ class ResourcesContainer extends Component {
   render(){
     return (
       <div>
+        <ResourceInput />
       </div>
     )
   }

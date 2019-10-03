@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
  
-const Resources = () => {
+const ResourceHome = () => {
   return (
     <div>
       <h3>
@@ -10,7 +10,7 @@ const Resources = () => {
       <NavLink exact to={'/resources/new'}>
         Add a New Resource
       </NavLink>
-      <br></br><br></br>
+      <br></br><br></br><br></br>
       <NavLink exact to={'/resources'}>
         View All Resources
       </NavLink>
@@ -18,4 +18,4 @@ const Resources = () => {
   )
 }
  
-export default Resources
+export default ResourceHome

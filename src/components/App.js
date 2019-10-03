@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
-import '../App.css';
-import {Route} from 'react-router-dom';
+import React, {Component} from 'react'
+import '../App.css'
+import {Route} from 'react-router-dom'
 import NavBar from './NavBar'
 import Advisor from './advisor/Advisor'
-import Trackers from './trackers/Trackers'
-import Journal from './journal/Journal'
-import JournalContainer from '../containers/JournalContainer';
-import Resources from './resources/Resources'
-import ResourcesContainer from '../containers/ResourcesContainer';
-import Community from './community/Community'
+import TrackerHome from './trackers/TrackerHome'
+import JournalHome from './journal/JournalHome'
+import JournalContainer from '../containers/JournalContainer'
+import ResourceHome from './resources/ResourceHome'
+import ResourcesContainer from '../containers/ResourcesContainer'
+import CommunityHome from './community/CommunityHome'
 
 class App extends Component {
   render(){
@@ -23,27 +23,27 @@ class App extends Component {
         }
         {
           <Route 
-            exact path='/trackers' 
-            component={Trackers}
+            exact path='/tracker_home' 
+            component={TrackerHome}
           />
         }
         {
           <Route 
-            exact path='/journal' 
-            component={Journal}
+            exact path='/journal_home' 
+            component={JournalHome}
           />
         }
         {
           <Route 
             exact path='/resource_home' 
-            component={Resources}
+            component={ResourceHome}
             //(Rather than a button on the bottom of the screen, may go in a dropdown with login, settings links/buttons)
           />
         }
         {
           <Route 
-            exact path='/community' 
-            component={Community}
+            exact path='/community_home' 
+            component={CommunityHome}
           />
         }
 
@@ -62,7 +62,7 @@ class App extends Component {
           CommentsContainer */}
       </div>
       </React.Fragment>
-    );
+    )
   }
 }
 export default App

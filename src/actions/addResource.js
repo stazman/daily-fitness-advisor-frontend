@@ -1,4 +1,4 @@
-export const addResource = () => {
+export const addResource = (data) => {
   return (dispatch) => {
     return fetch('http://localhost:3001/api/v1/resources', { 
         headers: {

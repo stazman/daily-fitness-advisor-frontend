@@ -1,7 +1,7 @@
 const manageResources = (state = {resources: []}, action) => {
   switch (action.type){
     case 'FETCH_RESOURCES':
-      return state
+      return {resources: action.payload}
     
     default:
       return state

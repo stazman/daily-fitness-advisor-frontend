@@ -1,11 +1,12 @@
-import React, {Component} from 'react';
-import fetchResources from '../actions/fetchResources'
+import React, {Component} from 'react'
+import { connect } from 'react-redux'
+import {fetchResources} from '../actions/fetchResources'
 
 
 class ResourcesContainer extends Component {
 
   componentDidMount(){
-    fetchResources()
+    this.props.fetchResources()
   }
 
   render(){
@@ -16,4 +17,10 @@ class ResourcesContainer extends Component {
   }
 }
 
-export default ResourcesContainer
+const mapStateToProps = state => {
+  return {
+    resources: state.resources
+  }
+}
+
+export default connect(mapStateToProps, {fetchResources})(ResourcesContainer)

@@ -5,7 +5,7 @@ RESOURCES
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Creates, stubs form
+DONE Creates new resource action creator; adds new resource action to reducer
 
 
 FUTURE TASKS (ongoing):
@@ -52,7 +52,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
-
+DONE Creates, stubs new resource form
 DONE Connects resources to store; maps state, asynced fetch dispatch to props
 DONE Creates reducer, adds it to store
 DONE Creates Resources container; renders resources instances on fetch

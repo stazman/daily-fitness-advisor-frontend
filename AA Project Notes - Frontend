@@ -5,8 +5,7 @@ RESOURCES
 
 CURRENT FRONTEND TASKS (ongoing):
 
-
-DONE Completes Resources home page component content; edits Resources, Community home pages paths
+Creates Resources container; fetches 
 
 
 FUTURE TASKS (ongoing):
@@ -54,6 +53,8 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 
+
+DONE Completes Resources home page component content; edits Resources, Community home pages paths
 DONE Moves journal feature files to appropriate components subdirectory
 DONE Adds navlinks to planned components; stubs App, planned components
 

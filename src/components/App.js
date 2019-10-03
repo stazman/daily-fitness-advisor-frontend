@@ -7,6 +7,7 @@ import Trackers from './trackers/Trackers'
 import Journal from './journal/Journal'
 import JournalContainer from '../containers/JournalContainer';
 import Resources from './resources/Resources'
+import ResourcesContainer from '../containers/ResourcesContainer';
 import Community from './community/Community'
 
 class App extends Component {
@@ -48,11 +49,13 @@ class App extends Component {
 
       <div className="App">
         <JournalContainer />
+        <ResourcesContainer />
+
         {/* AdvisorContainer
         TrackerContainer
           WeightLossTrackerContainer (Has form for new weighing, current weight, weight history)
           HabitTracker (Shows Record of Habits for week, month, etc.)
-        ResourceContainer
+        ResourcesContainer
           CommentsContainer
         CommunityContainer
           CommunityLinksContainer

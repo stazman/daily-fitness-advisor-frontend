@@ -9,6 +9,7 @@ import {createStore, applyMiddleware, compose} from 'redux'
 import {BrowserRouter as Router} from 'react-router-dom'
 import thunk from 'redux-thunk'
 import { combineReducers } from 'redux'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 

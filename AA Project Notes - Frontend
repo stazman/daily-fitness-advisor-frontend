@@ -1,21 +1,39 @@
 CURRENT FEATURE (ongoing):
 
-RESOURCES
+STYLING
 
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Adds journal reducer key to container state; debugs incorrectly ordered journal entries list
+
+DONE Installs, imports react-bootstrap; adds, imports Bootstrap CDN 
 
 
 FUTURE TASKS (ongoing):
 
 
 
+
+STYLING
+
 Create basic CSS/Bootstrap structure for home page, journal features
   Creates mobile-first bootstrap design
   Creates basic style for home page
-  Creates basic style for journal page
+  Creates basic style for navbar
+  Creates basic style for new journal/new resource pages
+  Creates basic style for all journal entries/all resources page
+  Creates basic style for individual journal entry page
+  
+  
+
+
+RESOURCES
+
+Makes resource titles into links that take the user to a full description/creates option to see full description on same page
+
+Truncates description on all resources page
+
+Adds delete functionality
 
 
 JOURNAL
@@ -52,7 +70,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
-
+DONE Adds journal reducer key to container state; debugs incorrectly ordered journal entries list
 DONE Creates, renders routes for new resource form, all resources; renders all resources
 DONE Connects new resource form to store; persists new resource instance to database on form submission; renames feature home page urls, components for clarity
 DONE Creates new resource action creator; adds new resource action to reducer

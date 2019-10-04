@@ -1,7 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { Route, Switch } from 'react-router-dom'
 import {fetchResources} from '../actions/fetchResources'
 import ResourceInput from '../components/resources/ResourceInput'
+import Resources from '../components/resources/Resources'
 
 class ResourcesContainer extends React.Component {
 
@@ -12,7 +14,16 @@ class ResourcesContainer extends React.Component {
   render(){
     return (
       <div>
-        <ResourceInput />
+        <Switch>
+          <Route
+            exact path='/resources/new'
+            component={ResourceInput}
+          />
+          <Route
+            exact path='/resources/'
+            render={(routerProps) => <Resources {...routerProps} resources={this.props.resources} />}
+          />
+        </Switch>
       </div>
     )
   }
@@ -20,7 +31,7 @@ class ResourcesContainer extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    resources: state.resources
+    resources: state.manageResources.resources
   }
 }
 

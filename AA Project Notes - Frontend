@@ -5,7 +5,7 @@ RESOURCES
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Connects new resource form to store; persists new resource instance to database on form submission; renames feature home page urls, components for clarity
+DONE Creates, renders routes for new resource form, all resources; renders all resources
 
 
 FUTURE TASKS (ongoing):
@@ -53,6 +53,7 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 
+DONE Connects new resource form to store; persists new resource instance to database on form submission; renames feature home page urls, components for clarity
 DONE Creates new resource action creator; adds new resource action to reducer
 DONE Creates, stubs new resource form
 DONE Connects resources to store; maps state, asynced fetch dispatch to props

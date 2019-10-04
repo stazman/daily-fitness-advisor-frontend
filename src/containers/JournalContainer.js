@@ -37,7 +37,7 @@ class JournalContainer extends Component {
 
 const mapStateToProps = state => {
   return {
-    journalEntries: state.journalEntries
+    journalEntries: state.manageJournal.journalEntries
   }
 }
 

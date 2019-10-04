@@ -3,7 +3,9 @@ import {Redirect} from 'react-router-dom'
 
 const JournalEntry = (props) => {
 
-  let journalEntry = props.journalEntries[props.match.params.id - 1];
+  const reverseProps = props.journalEntries.reverse()
+
+  const journalEntry = reverseProps[props.match.params.id - 1]
 
   return (
     <li>
@@ -13,4 +15,4 @@ const JournalEntry = (props) => {
   )
 }
 
-export default JournalEntry;
+export default JournalEntry

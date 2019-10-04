@@ -12,7 +12,7 @@ const AllJournalEntries = (props) => {
   return (
     <div>
       { 
-        [...props.journalEntries].reverse().map(journalEntry => 
+        props.journalEntries && [...props.journalEntries].map(journalEntry => 
           <div key={journalEntry.id}> 
             <Link to={`/journals/${journalEntry.id}`}>
               {journalEntry.content}

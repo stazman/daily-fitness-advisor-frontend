@@ -6,7 +6,7 @@ STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Installs, imports react-bootstrap; adds, imports Bootstrap CDN 
+DONE Styles Navbar
 
 
 FUTURE TASKS (ongoing):
@@ -70,6 +70,8 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
+
+DONE Installs, imports react-bootstrap; adds, imports Bootstrap CDN 
 DONE Adds journal reducer key to container state; debugs incorrectly ordered journal entries list
 DONE Creates, renders routes for new resource form, all resources; renders all resources
 DONE Connects new resource form to store; persists new resource instance to database on form submission; renames feature home page urls, components for clarity

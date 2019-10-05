@@ -1,16 +1,23 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Navbar } from 'react-bootstrap'
+import { Nav } from 'react-bootstrap'
+import { NavDropdown } from 'react-bootstrap'
 
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <ul>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/tracker_home">Trackers</NavLink></li>
-        <li><NavLink to="/journal_home">Journal</NavLink></li>
-        <li><NavLink to="/resource_home">Resources</NavLink></li>
-        <li><NavLink to="/community_home">Community</NavLink></li>
-      </ul>
+      <Navbar bg="light" expand="lg">
+      <Navbar.Brand href="/">Daily Weight Loss Advisor</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <NavDropdown id="basic-nav-dropdown">
+            <NavDropdown.Item href="/">Settings</NavDropdown.Item>
+            <NavDropdown.Item href="/">Login/Logout</NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+      </Navbar>
     </div>
   )
 }

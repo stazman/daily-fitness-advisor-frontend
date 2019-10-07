@@ -6,8 +6,10 @@ STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Styles Navbar
+Styles containers
 
+
+Styles containers
 
 FUTURE TASKS (ongoing):
 
@@ -16,15 +18,17 @@ FUTURE TASKS (ongoing):
 
 STYLING
 
-Create basic CSS/Bootstrap structure for home page, journal features
-  Creates mobile-first bootstrap design
-  Creates basic style for home page
-  Creates basic style for navbar
-  Creates basic style for new journal/new resource pages
-  Creates basic style for all journal entries/all resources page
-  Creates basic style for individual journal entry page
+Stub basic CSS/Bootstrap structure, styled components for home page, journal features
+  Stubs structure/styled components for new journal entry/new resource pages
+  Stubs structure/styled components for all journal entries/all resources pages
+  Stubs structure/styled components for individual journal entry page
   
-  
+Abstracts relevant styling
+
+
+HOME/ADVISORS
+
+Creates BottomNavbar
 
 
 RESOURCES
@@ -71,6 +75,11 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 COMPLETED TASKS:
 
 
+DONE Adds DS_store to gitignore
+DONE Adds global styling
+DONE Styles Navbar
+DONE Stubs content; adds layout components, elements; adds, styles new advice button on home page
+DONE Styles Navbar
 DONE Installs, imports react-bootstrap; adds, imports Bootstrap CDN 
 DONE Adds journal reducer key to container state; debugs incorrectly ordered journal entries list
 DONE Creates, renders routes for new resource form, all resources; renders all resources

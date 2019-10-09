@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import '../App.css'
 import {Route} from 'react-router-dom'
-import NavBar from './NavBar'
+import TopNavbar from './TopNavbar'
 import Advisor from './advisor/Advisor'
 import TrackerHome from './trackers/TrackerHome'
 import JournalHome from './journal/JournalHome'
@@ -9,12 +9,32 @@ import JournalContainer from '../containers/JournalContainer'
 import ResourceHome from './resources/ResourceHome'
 import ResourcesContainer from '../containers/ResourcesContainer'
 import CommunityHome from './community/CommunityHome'
+import BottomNavbar from './BottomNavbar'
+import { Container } from 'react-bootstrap'
 
 class App extends Component {
   render(){
     return (
-      <React.Fragment>
-      <NavBar />
+      <>
+      <style type="text/css">
+        {`
+          .flex-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+          }
+          .row {
+            margin: 0;
+            padding: 0;
+          }
+        `}
+      </style>
+
+      <Container className='flex-container'>
+        <TopNavbar />
         {
           <Route 
             exact path='/' 
@@ -46,8 +66,6 @@ class App extends Component {
             component={CommunityHome}
           />
         }
-
-      <div className="App">
         <JournalContainer />
         <ResourcesContainer />
 
@@ -60,8 +78,10 @@ class App extends Component {
         CommunityContainer
           CommunityLinksContainer
           CommentsContainer */}
-      </div>
-      </React.Fragment>
+
+        <BottomNavbar />
+      </Container>
+      </>
     )
   }
 }

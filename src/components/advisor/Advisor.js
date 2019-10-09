@@ -6,28 +6,12 @@ const Advisor = () => {
     <>
     <style type="text/css">
       {`
-        section {
-          display: flex;
-          justify-content: center;
-          width: 100%;
-          height: 35%;
-        }
-
-        section.button-on-top {
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: center;
-          align-items: baseline;
-          align-content: top;
-          width: 100%;
-          height: 35%;
-        }
-
         .flex-container {
           display: flex;
           width: 100vw;
           height: 100vh;
           flex-direction: column;
+          align-items: center;
         }
 
         .btn-main {
@@ -38,14 +22,23 @@ const Advisor = () => {
     </style>
 
     <Container className='flex-container'>
-      <section className='bottom'>
-           <p className='align-self-center'>Losing weight is a marathon, not a sprint. But even a marathon begins with one step ...</p>
-      </section>
-      <section className='button-on-top'>
-        <Button variant="main" href='/advisors/new'>
-          Get Advice
-        </Button>
-      </section>
+      <Row>
+        <Col lg={12}>
+          <p className='align-self-center'>
+            Losing weight is a marathon, not a sprint. But even a marathon begins with one step ...
+          </p>
+        </Col>
+      </Row>
+    </Container>
+
+    <Container className='flex-container'>
+      <Row>
+        <Col lg={12}>
+            <Button variant="main" href='/advisors/new'>
+              Get Advice
+            </Button>
+        </Col>
+      </Row>
     </Container>
     </>
   )

@@ -1,96 +1,95 @@
 CURRENT FEATURE (ongoing):
 
-STYLING
+BASIC STYLING
 
 
 CURRENT FRONTEND TASKS (ongoing):
 
+  DONE Creates, adds styling to, replaces stubbed styling code in TopNavbar with NavbarStyles
 
-DONE Adds Layout, BottomNavbar, Switch to App; removes unneeded code, css files
+  Replaces stubbed styling code in BottomNavbar with NavbarStyles
 
-Creates, adds styling to, replaces stubbed styling code in TopNavbar with NavbarStyles
+  Adds ButtonStyles
 
 
-Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
-  Stubs styling for journal home page 
-  Stubs styling for resource home page 
 
-  Stubs styling for new journal entry form, page
-  Stubs styling for new resource form, page
-  Stubs styling for all journal entries page
-  Stubs styling for all resources page
-  Stubs styling for individual journal entry page
 
-Affix navbars to page; center section scrolls
-Center main content area
-  messages
-  buttons
-  forms
-  result lists
-  individual journal entry
+  Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
 
-Remove styled-components dir?
+  Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
+
+  Adds stubbed styling code with styled components in new journal entry page
+
+  Replaces stubbed styling code with styled components in new resource form, page
+
+  Replaces stubbed styling code with styled components in all journal entries page
+
+  Replaces stubbed styling code with styled components in all resources page
+  
+  Replaces stubbed styling code with styled components in individual journal entry page
+
+
 
 
 FUTURE TASKS (ongoing):
 
-Abstracts styled components into JS functions to allow customized styling for individual components
+
+NAVBARS
+  
+  Affixes navbars to page; center section scrolls?
+
+  Reorient aria controls property for BottomNavbar
 
 
-HOME/ADVISORS
 
-Creates BottomNavbar
+UNCODED FEATURES
 
+  Add advisor forms and output
 
-Containers for later features:
-  AdvisorContainer
-  TrackerContainer
-  WeightLossTrackerContainer (Has form for new weighing, current weight, weight history)
-  HabitTracker (Shows Record of Habits for week, month, etc.)
-  CommentsContainer
-  CommunityContainer
-  CommunityLinksContainer
-  CommentsContainer
+  Add weight tracker feature
+
+  Add community feature
+
+  Containers for later features:
+    AdvisorContainer
+    TrackerContainer
+    WeightLossTrackerContainer (Has form for new weighing, current weight, weight history)
+    HabitTracker (Shows Record of Habits for week, month, etc.)
+    CommentsContainer
+    CommunityContainer
+    CommunityLinksContainer
+    CommentsContainer
           
+
 RESOURCES
 
-Makes resource titles into links that take the user to a full description/creates option to see full description on same page
+  Makes resource titles into links that take the user to a full description/creates option to see full description on same page?
 
-Truncates description on all resources page
+  Truncates description on all resources page
 
-Adds delete functionality
+  Adds delete functionality
 
 
 JOURNAL
 
-Styles NavLink links on Journal page as buttons
+  Adds edit/update functionality to list of journal entries, individual entries?
 
-Adds edit/update functionality to list of journal entries, individual entries?
+  Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method?)
 
-Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method)
   Adds search bar to Journal
 
-Add date to journal feature
-
-
-OTHER FEATURES
-
-Add advisor forms and output
-
-Add weight tracker feature
-
-Add community feature
-
-Create basic CSS/Bootstrap structure for unstyled features
+  Add date to journal feature
 
 
 
 OVERALL APP
 
 
-Moves store to separate component
+  Establish breakpoints for responsive design
 
-Adds, installs logos to manifest.json; adds relevant link to index.html
+  Moves store to separate component
+
+  Adds, installs logos to manifest.json; adds relevant link to index.html?
 
 
 
@@ -104,7 +103,7 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Adds BottomNavbar to, stubs structure, styling for App container
   DONE Installs styled-components
   DONE Adds Layout component passing props to main content area of individual routes/pages
-
+  DONE Adds Layout, BottomNavbar, Switch to App; removes unneeded code, css files
 
 
 DONE Adds DS_store to gitignore

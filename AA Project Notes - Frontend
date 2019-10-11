@@ -5,11 +5,15 @@ BASIC STYLING
 
 CURRENT FRONTEND TASKS (ongoing):
 
-  DONE Creates, adds styling to, replaces stubbed styling code in TopNavbar with NavbarStyles
+  
 
-  Replaces stubbed styling code in BottomNavbar with NavbarStyles
+  DONE Replaces stubbed styling code in BottomNavbar with NavbarStyles
 
+  Adds RowStyles
+  
   Adds ButtonStyles
+
+  Adds ColumnStyles
 
 
 
@@ -104,6 +108,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Installs styled-components
   DONE Adds Layout component passing props to main content area of individual routes/pages
   DONE Adds Layout, BottomNavbar, Switch to App; removes unneeded code, css files
+  DONE Creates, adds styling to, replaces stubbed styling code in TopNavbar with NavbarStyles
+
 
 
 DONE Adds DS_store to gitignore

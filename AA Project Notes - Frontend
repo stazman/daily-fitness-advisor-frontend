@@ -7,11 +7,7 @@ CURRENT FRONTEND TASKS (ongoing):
 
 
 
-  DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
-
-  
-  
-  Adds stubbed styling code with styled components to new journal entry page
+  DONE Stubs styling of new journal entry form
 
   Adds stubbed styling code with styled components to new resource form, page
 
@@ -77,6 +73,8 @@ RESOURCES
 
 JOURNAL
 
+  Set breakpoints/media queries for new journal entry
+
   Adds edit/update functionality to list of journal entries, individual entries?
 
   Search journal entries renders list of matched journal entries (will use new fetch action, input component, Rails class method?)
@@ -116,6 +114,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Adds ColumnStyles
   DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
   DONE Affixes BottomNavbar to bottom of page
+  DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
+
 
 
 

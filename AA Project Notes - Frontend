@@ -6,9 +6,8 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-  DONE Affixes BottomNavbar to bottom of page
 
-  Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
+  DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
 
   
   
@@ -30,8 +29,6 @@ FUTURE TASKS (ongoing):
 
 NAVBARS
   
-
-
   Fix TopNavbar Dropdown issue
 
     Note: noCaret doesn't work as documented
@@ -51,6 +48,8 @@ NAVBARS
 UNCODED FEATURES
 
   Add advisor forms and output
+
+    Nested forms replace button and below
 
   Add weight tracker feature
 
@@ -100,7 +99,7 @@ OVERALL APP
 
 
 
-COMPLETED TASKS:
+COMPLETED TASKS: XXX
 
 Stub basic CSS/Bootstrap structure, styled components for home page, journal features
   DONE Renames, stubs NavBar container
@@ -116,6 +115,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Adds RowStyles
   DONE Adds ColumnStyles
   DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
+  DONE Affixes BottomNavbar to bottom of page
+
 
 
 

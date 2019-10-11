@@ -1,45 +1,30 @@
 import React from 'react'
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Col, Button } from 'react-bootstrap'
+import ButtonStyles from '../styles/ButtonStyles'
+import ColumnStyles from '../styles/ColumnStyles'
 
 const Advisor = () => {
   return (
     <>
-    <style type="text/css">
-      {`
-        .flex-container {
-          display: flex;
-          width: 100vw;
-          height: 100vh;
-          flex-direction: column;
-          align-items: center;
-        }
+      <ColumnStyles>
+        <ButtonStyles>
 
-        .btn-main {
-          background-color: navy;
-          color: white;
-        }
-      `}
-    </style>
+          <Col lg={12} className='col-lg-12 message-col'>
+              Losing weight is a marathon, not a sprint. But even a marathon begins with one step ...
+          </Col>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <p className='align-self-center'>
-            Losing weight is a marathon, not a sprint. But even a marathon begins with one step ...
-          </p>
-        </Col>
-      </Row>
-    </Container>
-
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
+          <Col 
+            lg={12} 
+            className='col-lg-12 button-col' 
+            style={{paddingTop: '.3em'}}
+          >
             <Button variant="main" href='/advisors/new'>
               Get Advice
             </Button>
-        </Col>
-      </Row>
-    </Container>
+          </Col>
+
+        </ButtonStyles>
+      </ColumnStyles>
     </>
   )
 }

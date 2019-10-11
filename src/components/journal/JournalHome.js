@@ -16,13 +16,13 @@ const JournalHome = () => {
           </Col>
 
           <Col lg={12} className='col-lg-12 button-col'>
-            <Button variant="main" href='/journals/new' className='align-self-center'>
+            <Button variant="main" href='/journals/new'>
               Add a New Entry
             </Button>
           </Col>
 
             <Col lg={12} className='col-lg-12 button-col'>
-            <Button variant="main" href='/journals' className='align-self-center'>
+            <Button variant="main" href='/journals'>
               View All Entries
             </Button>
           </Col>

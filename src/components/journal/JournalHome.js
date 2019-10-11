@@ -1,55 +1,34 @@
 import React from 'react'
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Col, Button } from 'react-bootstrap'
+import ButtonStyles from '../styles/ButtonStyles'
+import ColumnStyles from '../styles/ColumnStyles'
 
 const JournalHome = () => {
   return (
     <>
-    <style type="text/css">
-      {`
-        .flex-container {
-          display: flex;
-          width: 100vw;
-          height: 100vh;
-          flex-direction: column;
-          align-items: center;
-        }
+      <ColumnStyles>
+        <ButtonStyles>    
 
-        .btn-main {
-          background-color: navy;
-          color: white;
-        }
-      `}
-    </style>
+          <Col lg={12} className='col-lg-12 message-col'>
+            <h4>
+              Your Weight Loss Journal
+            </h4>
+          </Col>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <h4>
-            Your Weight Loss Journal
-          </h4>
-        </Col>
-      </Row>
-    </Container>
+          <Col lg={12} className='col-lg-12 button-col'>
+            <Button variant="main" href='/journals/new' className='align-self-center'>
+              Add a New Entry
+            </Button>
+          </Col>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <Button variant="main" href='/journals/new'>
-            Add a New Entry
-          </Button>
-        </Col>
-      </Row>
-    </Container>
+            <Col lg={12} className='col-lg-12 button-col'>
+            <Button variant="main" href='/journals' className='align-self-center'>
+              View All Entries
+            </Button>
+          </Col>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <Button variant="main" href='/journals'>
-            View All Entries
-          </Button>
-        </Col>
-      </Row>
-    </Container>
+        </ButtonStyles>
+      </ColumnStyles>
     </>
   )
 }

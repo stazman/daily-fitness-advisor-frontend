@@ -6,22 +6,23 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
   
-  DONE Adds ColumnStyles
 
 
-  Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
+  DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
 
   Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
 
-  Adds stubbed styling code with styled components in new journal entry page
-
-  Replaces stubbed styling code with styled components in new resource form, page
-
-  Replaces stubbed styling code with styled components in all journal entries page
-
-  Replaces stubbed styling code with styled components in all resources page
   
-  Replaces stubbed styling code with styled components in individual journal entry page
+  
+  Adds stubbed styling code with styled components to new journal entry page
+
+  Adds stubbed styling code with styled components to new resource form, page
+
+  Adds stubbed styling code with styled components to all journal entries page
+
+  Adds stubbed styling code with styled components to all resources page
+  
+  Adds stubbed styling code with styled components to individual journal entry page
 
 
 
@@ -31,7 +32,19 @@ FUTURE TASKS (ongoing):
 
 NAVBARS
   
-  Affixes navbars to page; center section scrolls?
+
+
+  Fix TopNavbar Dropdown issue
+
+    Note: noCaret doesn't work as documented
+    
+    Recode navbar to include button for dropdown with only a noCaret?
+  
+    
+  Affix BottomNavbar to vp use fixed='bottom' 
+  
+    Center section scrolls on list pages but not otherwise
+
 
   Reorient aria controls property for BottomNavbar
 
@@ -103,6 +116,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Replaces stubbed styling code in BottomNavbar with NavbarStyles
   DONE Adds ButtonStyles
   DONE Adds RowStyles
+  DONE Adds ColumnStyles
+
 
 
 DONE Adds DS_store to gitignore

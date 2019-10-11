@@ -5,10 +5,8 @@ BASIC STYLING
 
 CURRENT FRONTEND TASKS (ongoing):
 
-  
 
-
-  DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
+  DONE Affixes BottomNavbar to bottom of page
 
   Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
 
@@ -41,7 +39,7 @@ NAVBARS
     Recode navbar to include button for dropdown with only a noCaret?
   
     
-  Affix BottomNavbar to vp use fixed='bottom' 
+  Affix BottomNavbar to vp:
   
     Center section scrolls on list pages but not otherwise
 
@@ -117,6 +115,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Adds ButtonStyles
   DONE Adds RowStyles
   DONE Adds ColumnStyles
+  DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
+
 
 
 

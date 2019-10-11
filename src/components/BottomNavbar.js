@@ -6,7 +6,7 @@ const BottomNavBar = () => {
   return (
     <>
     <NavbarStyles>
-      <Navbar expand='xl' className='nb-bg'>
+      <Navbar expand='xl' className='nb-bg' fixed='bottom'>
         <Navbar.Brand href='/tracker_home'>Trackers</Navbar.Brand>
         <Navbar.Brand href='/journal_home'>Journal</Navbar.Brand>
         <Navbar.Brand href='/resource_home'>Resources</Navbar.Brand>

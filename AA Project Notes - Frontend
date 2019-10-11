@@ -6,23 +6,35 @@ STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Stubs structure/styled components for home/advisors page
+DONE Adds Layout, BottomNavbar, Switch to App; removes unneeded code, css files
 
+Creates, adds styling to, replaces stubbed styling code in TopNavbar with NavbarStyles
+
+
+Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
+  Stubs styling for journal home page 
+  Stubs styling for resource home page 
+
+  Stubs styling for new journal entry form, page
+  Stubs styling for new resource form, page
+  Stubs styling for all journal entries page
+  Stubs styling for all resources page
+  Stubs styling for individual journal entry page
+
+Affix navbars to page; center section scrolls
+Center main content area
+  messages
+  buttons
+  forms
+  result lists
+  individual journal entry
+
+Remove styled-components dir?
 
 
 FUTURE TASKS (ongoing):
 
-
-
-
-STYLING
-
-Stub basic CSS/Bootstrap structure, styled components for home page, journal features
-  Stubs structure/styled components for new journal entry/new resource pages
-  Stubs structure/styled components for all journal entries/all resources pages
-  Stubs structure/styled components for individual journal entry page
-  
-Abstracts relevant styling
+Abstracts styled components into JS functions to allow customized styling for individual components
 
 
 HOME/ADVISORS
@@ -30,6 +42,16 @@ HOME/ADVISORS
 Creates BottomNavbar
 
 
+Containers for later features:
+  AdvisorContainer
+  TrackerContainer
+  WeightLossTrackerContainer (Has form for new weighing, current weight, weight history)
+  HabitTracker (Shows Record of Habits for week, month, etc.)
+  CommentsContainer
+  CommunityContainer
+  CommunityLinksContainer
+  CommentsContainer
+          
 RESOURCES
 
 Makes resource titles into links that take the user to a full description/creates option to see full description on same page
@@ -62,7 +84,9 @@ Add community feature
 Create basic CSS/Bootstrap structure for unstyled features
 
 
+
 OVERALL APP
+
 
 Moves store to separate component
 
@@ -73,13 +97,22 @@ Adds, installs logos to manifest.json; adds relevant link to index.html
 
 COMPLETED TASKS:
 
+Stub basic CSS/Bootstrap structure, styled components for home page, journal features
+  DONE Renames, stubs NavBar container
+  DONE Stubs structure/styled components for home/advisors page
+  DONE Creates, stubs BottomNavbar
+  DONE Adds BottomNavbar to, stubs structure, styling for App container
+  DONE Installs styled-components
+  DONE Adds Layout component passing props to main content area of individual routes/pages
+
+
 
 DONE Adds DS_store to gitignore
 DONE Adds global styling
 DONE Styles Navbar
 DONE Stubs content; adds layout components, elements; adds, styles new advice button on home page
-DONE Styles Navbar
 DONE Installs, imports react-bootstrap; adds, imports Bootstrap CDN 
+
 DONE Adds journal reducer key to container state; debugs incorrectly ordered journal entries list
 DONE Creates, renders routes for new resource form, all resources; renders all resources
 DONE Connects new resource form to store; persists new resource instance to database on form submission; renames feature home page urls, components for clarity

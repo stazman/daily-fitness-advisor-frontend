@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import App from './components/App'
 import manageJournal from './reducers/manageJournal'
 import manageResources from './reducers/manageResources'

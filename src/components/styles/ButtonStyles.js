@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const ButtonStyles = styled.div`
+
   .btn-main {
     background-color: navy;
     color: white;

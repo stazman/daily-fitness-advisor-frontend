@@ -50,7 +50,7 @@ class JournalInput extends Component {
                   Keep note of your progress and thoughts!
                 </Form.Text>
               </Form.Group>
-              <Button className='btn-main' type='submit'>
+              <Button className='btn-submit' type='submit'>
                 Submit
               </Button>
             </Form>

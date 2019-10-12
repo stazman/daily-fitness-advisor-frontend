@@ -1,55 +1,39 @@
 import React from 'react'
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
+import RowStyles from '../styles/RowStyles'
+import ColumnStyles from '../styles/ColumnStyles'
+import ButtonStyles from '../styles/ButtonStyles'
  
 const ResourceHome = () => {
   return (
     <>
-    <style type="text/css">
-      {`
-        .flex-container {
-          display: flex;
-          width: 100vw;
-          height: 100vh;
-          flex-direction: column;
-          align-items: center;
-        }
+      <RowStyles>
+        <ColumnStyles>
+          <ButtonStyles>    
 
-        .btn-main {
-          background-color: navy;
-          color: white;
-        }
-      `}
-    </style>
+            <Row className='centered-row'>
+              <Col lg={12} className='col-lg-12 message-col'>
+                <h4>
+                  Your Resources
+                </h4>
+              </Col>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <h4>
-            Your Resources
-          </h4>
-        </Col>
-      </Row>
-    </Container>
+              <Col lg={12} className='col-lg-12 button-col'>
+                <Button variant="main" href='/resources/new'>
+                  Add a New Resource
+                </Button>
+              </Col>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <Button variant="main" href='/resources/new'>
-            Add a New Resource
-          </Button>
-        </Col>
-      </Row>
-    </Container>
+              <Col lg={12} className='col-lg-12 button-col'>
+                <Button variant="main" href='/resources'>
+                  View All Resources
+                </Button>
+              </Col>
+            </Row>
 
-    <Container className='flex-container'>
-      <Row>
-        <Col lg={12}>
-          <Button variant="main" href='/resources'>
-            View All Resources
-          </Button>
-        </Col>
-      </Row>
-    </Container>
+          </ButtonStyles>
+        </ColumnStyles>
+      </RowStyles>
     </>
   )
 }

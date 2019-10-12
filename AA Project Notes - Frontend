@@ -7,12 +7,10 @@ CURRENT FRONTEND TASKS (ongoing):
 
 
 
-  DONE Styles individual journal entry page
-
+  DONE Styles resource home page
+  
   Adds TextStyles
 
-  Styles resource home page
-  
   Styles new resource form
   
   Styles resources page
@@ -120,6 +118,7 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Creates new classes in RowStyles
   DONE Adds, styles row in new journal entry page
   DONE Styles journals page
+  DONE Styles individual journal entry page
 
 
 

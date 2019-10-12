@@ -1,5 +1,7 @@
 import React from 'react'
 import {Redirect} from 'react-router-dom'
+import { Row, Col } from 'react-bootstrap'
+import RowStyles from '../styles/RowStyles'
 
 const JournalEntry = (props) => {
 
@@ -8,10 +10,14 @@ const JournalEntry = (props) => {
   const journalEntry = reverseProps[props.match.params.id - 1]
 
   return (
-    <li>
-      {journalEntry ? null : <Redirect to='/journals' />}
-      {journalEntry ? journalEntry.content : null}
-    </li>
+    <RowStyles>
+      <Row className='left-justified-row'>
+        <Col>
+          {journalEntry ? null : <Redirect to='/journals' />}
+          {journalEntry ? journalEntry.content : null}
+        </Col>
+      </Row>
+    </RowStyles>
   )
 }
 

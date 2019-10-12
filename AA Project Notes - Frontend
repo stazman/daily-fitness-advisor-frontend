@@ -6,9 +6,8 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-  DONE Styles journals page
 
-  Styles individual journal entry page
+  DONE Styles individual journal entry page
 
   Adds TextStyles
 
@@ -120,6 +119,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Removes Row element, styling from Layout; adds, styles row in journal home page
   DONE Creates new classes in RowStyles
   DONE Adds, styles row in new journal entry page
+  DONE Styles journals page
+
 
 
 

@@ -6,9 +6,7 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-  DONE Adds, styles row in new journal entry page
-
-  Styles journals page
+  DONE Styles journals page
 
   Styles individual journal entry page
 
@@ -103,7 +101,7 @@ OVERALL APP
 
 COMPLETED TASKS: XXX
 
-Stub basic CSS/Bootstrap structure, styled components for home page, journal features
+Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
   DONE Renames, stubs NavBar container
   DONE Stubs structure/styled components for home/advisors page
   DONE Creates, stubs BottomNavbar
@@ -121,6 +119,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
   DONE Removes Row element, styling from Layout; adds, styles row in journal home page
   DONE Creates new classes in RowStyles
+  DONE Adds, styles row in new journal entry page
+
 
 
 

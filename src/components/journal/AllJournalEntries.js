@@ -1,7 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
-import {connect} from 'react-redux'
-import {deleteJournalEntry} from '../../actions/deleteJournalEntry'
+import { NavLink } from 'react-router-dom'
+import { connect } from 'react-redux'
+import { deleteJournalEntry } from '../../actions/deleteJournalEntry'
+import { Row, Col, Button} from 'react-bootstrap'
+import ButtonStyles from '../styles/ButtonStyles'
+import RowStyles from '../styles/RowStyles'
 
 const AllJournalEntries = (props) => {
 
@@ -10,20 +13,38 @@ const AllJournalEntries = (props) => {
   }
 
   return (
-    <div>
-      { 
-        props.journalEntries && [...props.journalEntries].map(journalEntry => 
-          <div key={journalEntry.id}> 
-            <Link to={`/journals/${journalEntry.id}`}>
-              {journalEntry.content}
-            </Link>
-            <button onClick={() => handleDelete(journalEntry)}>
-              Delete Entry
-            </button>
-          </div>
-        )
-      }                
-    </div>
+    <>
+      <RowStyles>
+        <ButtonStyles>
+
+          <Row className='left-justified-row'>
+            <Col>
+              { 
+                props.journalEntries && [...props.journalEntries].map(journalEntry => 
+                  <div key={journalEntry.id}> 
+                    <NavLink 
+                      exact to={`/journals/${journalEntry.id}`}
+                      style={{color: 'white'}}
+                    >
+                      {journalEntry.content}
+                    </NavLink>
+                    <br></br><br></br>
+                      <Button 
+                        onClick={() => handleDelete(journalEntry)}
+                        className='btn-submit'
+                      >
+                        Delete Entry
+                      </Button>
+                    <br></br><br></br><br></br>
+                  </div>
+                )
+              }
+            </Col>
+          </Row>
+
+        </ButtonStyles>
+      </RowStyles>                
+    </>
   )
 }
 

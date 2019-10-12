@@ -2,9 +2,9 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import { withRouter } from 'react-router-dom';
 import {addJournalEntry} from '../../actions/addJournalEntry'
-import { Form, Button } from 'react-bootstrap'
+import { Row, Form, Button } from 'react-bootstrap'
+import RowStyles from '../styles/RowStyles'
 import ButtonStyles from '../styles/ButtonStyles'
-import FormStyles from '../styles/FormStyles'
 
 class JournalInput extends Component {
 
@@ -29,32 +29,35 @@ class JournalInput extends Component {
 
   render(){
     return (
-      <FormStyles>
+      <RowStyles>
         <ButtonStyles>
-
-          <Form onSubmit={this.handleSubmit}>
-            <Form.Group controlId='formJournalEntryl'>
-              <Form.Label>Add a Journal Entry</Form.Label>
-              <br></br>
-              <Form.Control 
-                as='textarea' 
-                type='textarea'
-                rows='6'
-                placeholder='Write your journal entry here ...'
-                onChange={e => this.handleChange(e)}
-                value={this.state.content}
-              />
-              <Form.Text>                
-                Keep note of your progress and thoughts!
-              </Form.Text>
-            </Form.Group>
-            <Button className='btn-main' type='submit'>
-              Submit
-            </Button>
-          </Form>
+          
+          <Row className='left-justified-row'>
+            <Form onSubmit={this.handleSubmit}>
+              <Form.Group controlId='formJournalEntryl'>
+                <Form.Label>Add a Journal Entry</Form.Label>
+                <br></br>
+                <Form.Control 
+                  as='textarea' 
+                  type='textarea'
+                  rows='6'
+                  cols='110'
+                  placeholder='Write your journal entry here ...'
+                  onChange={e => this.handleChange(e)}
+                  value={this.state.content}
+                />
+                <Form.Text>                
+                  Keep note of your progress and thoughts!
+                </Form.Text>
+              </Form.Group>
+              <Button className='btn-main' type='submit'>
+                Submit
+              </Button>
+            </Form>
+          </Row>
           
         </ButtonStyles>
-      </FormStyles>
+      </RowStyles>
     )
   }
 }

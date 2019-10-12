@@ -36,7 +36,7 @@ class JournalInput extends Component {
             <Form onSubmit={this.handleSubmit}>
               <Form.Group controlId='formJournalEntryl'>
                 <Form.Label>Add a Journal Entry</Form.Label>
-                <br></br>
+                <br></br><br></br>
                 <Form.Control 
                   as='textarea' 
                   type='textarea'

@@ -1,6 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import {addResource} from '../../actions/addResource'
+import { addResource } from '../../actions/addResource'
+import { Row, Form, Button } from 'react-bootstrap'
+import RowStyles from '../styles/RowStyles'
+import ButtonStyles from '../styles/ButtonStyles'
 
 class ResourceInput extends React.Component {
 
@@ -23,35 +26,59 @@ class ResourceInput extends React.Component {
 
   render(){
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>Add a Resource</label>
-        <br></br><br></br>
-        <input 
-          type='text' 
-          placeholder='Title' 
-          onChange={e => this.handleChange(e)}
-          name='title'
-          value={this.state.title}
-        />
-        <br></br><br></br>
-        <input 
-          type='textarea' 
-          placeholder='Description' 
-          onChange={e => this.handleChange(e)}
-          name='description'
-          value={this.state.description}
-        />
-        <br></br><br></br>
-        <input 
-          type='textarea' 
-          placeholder='Website URL' 
-          onChange={e => this.handleChange(e)}
-          name='url'
-          value={this.state.url}
-        />
-        <br></br><br></br>
-        <input type='submit' />
-      </form>
+      <RowStyles>
+        <ButtonStyles>
+
+          <Row className='left-justified-row'>
+            <Form>
+              <Form.Group controlId='formTitle'>
+                <Form.Label>
+                  Add a Resource
+                </Form.Label>
+                <br></br><br></br>
+                <Form.Control
+                  type='text' 
+                  placeholder='Title' 
+                  onChange={e => this.handleChange(e)}
+                  name='title'
+                  value={this.state.title}
+                />
+              </Form.Group>
+
+              <Form.Group controlId='formDescription'>
+                <Form.Control
+                  as='textarea' 
+                  rows='3'
+                  cols='110' 
+                  type='textarea'
+                  placeholder='Description' 
+                  onChange={e => this.handleChange(e)}
+                  name='description'
+                  value={this.state.description}    
+                />
+              </Form.Group>
+              
+              <Form.Group controlId='formURL'>
+                <Form.Control
+                  type='textarea' 
+                  placeholder='Website URL (Web Address)' 
+                  onChange={e => this.handleChange(e)}
+                  name='url'
+                  value={this.state.url} 
+                />
+                <Form.Text>                
+                  Copy the web address (ex. "www.example.com" or "example.com") found at the top of the website and paste it here.
+                </Form.Text>
+
+              </Form.Group>
+                <Button type='submit' className='btn-submit'>
+                  Submit
+                </Button>
+            </Form>
+          </Row>
+
+        </ButtonStyles> 
+      </RowStyles>
     )
   }
 }

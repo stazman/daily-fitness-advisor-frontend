@@ -1,8 +1,17 @@
 import styled from 'styled-components'
 
 const TextStyles = styled.div`
+
   a {
-    color: white;
+    color: navy;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .coral-text {
+    color: #f88379;
   }
 `
 

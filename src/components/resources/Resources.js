@@ -1,18 +1,32 @@
 import React from 'react'
- 
+import { Row, Col } from 'react-bootstrap'
+import RowStyles from '../styles/RowStyles'
+import TextStyles from '../styles/TextStyles'
+
 const Resources = (props) => {
   return (
-    <div>
-      { 
-        props.resources && props.resources.map(resource => 
-          <li key={resource.id}>
-            <h3>{resource.title}</h3>
-            <p>{resource.description}</p>
-            <a href={resource.url}>Go to Resource</a>
-          </li>
-        )
-      }    
-    </div>
+    <RowStyles>
+      <TextStyles>
+
+        <Row className='left-justified-row'>
+          <Col>
+            { 
+              props.resources && props.resources.map(resource => 
+                <ul>
+                  <li key={resource.id}>
+                    <h3 className='coral-text'>{resource.title}</h3>
+                    <p>{resource.description}</p>
+                    <a href={resource.url}>Go to Resource</a>
+                    <br></br><br></br>
+                  </li>
+                </ul>
+              )
+            } 
+          </Col>   
+        </Row>
+        
+      </TextStyles>
+    </RowStyles>
   )
 }
 

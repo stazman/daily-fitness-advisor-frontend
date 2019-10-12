@@ -6,9 +6,8 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-  DONE Adds styles to/changes styles in TextStyles
 
-  Styles resources page
+  DONE Styles resources page
 
 
 
@@ -117,9 +116,7 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Styles resource home page
   DONE Adds TextStyles
   DONE Styles new resource form
-  
-
-
+  DONE Adds styles to/changes styles in TextStyles
 
 
 DONE Adds DS_store to gitignore

@@ -13,38 +13,36 @@ const AllJournalEntries = (props) => {
   }
 
   return (
-    <>
-      <RowStyles>
-        <ButtonStyles>
+    <RowStyles>
+      <ButtonStyles>
 
-          <Row className='left-justified-row'>
-            <Col>
-              { 
-                props.journalEntries && [...props.journalEntries].map(journalEntry => 
-                  <div key={journalEntry.id}> 
-                    <NavLink 
-                      exact to={`/journals/${journalEntry.id}`}
-                      style={{color: 'white'}}
+        <Row className='left-justified-row'>
+          <Col>
+            { 
+              props.journalEntries && [...props.journalEntries].map(journalEntry => 
+                <div key={journalEntry.id}> 
+                  <NavLink 
+                    exact to={`/journals/${journalEntry.id}`}
+                    style={{color: 'white'}}
+                  >
+                    {journalEntry.content}
+                  </NavLink>
+                  <br></br><br></br>
+                    <Button 
+                      onClick={() => handleDelete(journalEntry)}
+                      className='btn-submit'
                     >
-                      {journalEntry.content}
-                    </NavLink>
-                    <br></br><br></br>
-                      <Button 
-                        onClick={() => handleDelete(journalEntry)}
-                        className='btn-submit'
-                      >
-                        Delete Entry
-                      </Button>
-                    <br></br><br></br><br></br>
-                  </div>
-                )
-              }
-            </Col>
-          </Row>
+                      Delete Entry
+                    </Button>
+                  <br></br><br></br><br></br>
+                </div>
+              )
+            }
+          </Col>
+        </Row>
 
-        </ButtonStyles>
-      </RowStyles>                
-    </>
+      </ButtonStyles>
+    </RowStyles>                
   )
 }
 

@@ -6,25 +6,21 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
+  DONE Creates new classes in RowStyles
 
-  DONE Removes Row element, styling from Layout; adds, styles row in journal home page
+  Adds, styles row in new journal entry page
+
+  Styles journals page
+
+  Styles individual journal entry page
+
+  Adds TextStyles
+
+  Styles resource home page
   
+  Styles new resource form
   
-    Adds, styles row in new journal entry page
-  
-    Stubs styling of new journal entry form
-
-    Styles journals page
-
-    Styles individual journal entry page
-
-    Adds TextStyles
-
-    Styles resource home page
-    
-    Styles new resource form
-    
-    Styles resources page
+  Styles resources page
 
 
 
@@ -38,6 +34,8 @@ NAVBARS
     Note: noCaret doesn't work as documented
     
     Recode navbar to include button for dropdown with only a noCaret?
+
+    Adjust spacing in BottomNavbar for responsiveness
   
     
   Affix BottomNavbar to vp:
@@ -81,7 +79,7 @@ RESOURCES
 
 JOURNAL
 
-  Set breakpoints/media queries for new journal entry
+  Set breakpoints/media queries for new journal entry textarea, row padding
 
   Adds edit/update functionality to list of journal entries, individual entries?
 
@@ -123,6 +121,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal fea
   DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in journal home page
   DONE Affixes BottomNavbar to bottom of page
   DONE Replaces stubbed styling code with styled components, removes unneeded structuring elements in advisor page
+  DONE Removes Row element, styling from Layout; adds, styles row in journal home page
+
 
 
 

@@ -7,16 +7,24 @@ CURRENT FRONTEND TASKS (ongoing):
 
 
 
-  DONE Stubs styling of new journal entry form
-
-  Adds stubbed styling code with styled components to new resource form, page
-
-  Adds stubbed styling code with styled components to all journal entries page
-
-  Adds stubbed styling code with styled components to all resources page
+  DONE Removes Row element, styling from Layout; adds, styles row in journal home page
   
-  Adds stubbed styling code with styled components to individual journal entry page
+  
+    Adds, styles row in new journal entry page
+  
+    Stubs styling of new journal entry form
 
+    Styles journals page
+
+    Styles individual journal entry page
+
+    Adds TextStyles
+
+    Styles resource home page
+    
+    Styles new resource form
+    
+    Styles resources page
 
 
 

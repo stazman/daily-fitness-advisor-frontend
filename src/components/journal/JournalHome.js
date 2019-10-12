@@ -1,14 +1,17 @@
 import React from 'react'
-import { Col, Button } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 import ButtonStyles from '../styles/ButtonStyles'
 import ColumnStyles from '../styles/ColumnStyles'
+import RowStyles from '../styles/RowStyles'
 
 const JournalHome = () => {
   return (
     <>
+      <RowStyles>
       <ColumnStyles>
         <ButtonStyles>    
 
+        <Row className='centered-row'>
           <Col lg={12} className='col-lg-12 message-col'>
             <h4>
               Your Weight Loss Journal
@@ -26,9 +29,10 @@ const JournalHome = () => {
               View All Entries
             </Button>
           </Col>
-
+          </Row>
         </ButtonStyles>
       </ColumnStyles>
+      </RowStyles>
     </>
   )
 }

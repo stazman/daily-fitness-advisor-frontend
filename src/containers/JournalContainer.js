@@ -1,13 +1,13 @@
-import React, {Component} from 'react'
-import {connect} from 'react-redux'
-import {Route, Switch} from 'react-router-dom'
-import {fetchJournalEntries} from '../actions/fetchJournalEntries'
+import React from 'react'
+import { connect } from 'react-redux'
+import { Route, Switch } from 'react-router-dom'
+import { fetchJournalEntries } from '../actions/fetchJournalEntries'
 import JournalInput from '../components/journal/JournalInput'
 import AllJournalEntries from '../components/journal/AllJournalEntries'
 import JournalEntry from '../components/journal/JournalEntry'
 
 
-class JournalContainer extends Component {
+class JournalContainer extends React.Component {
 
   componentDidMount(){
     this.props.fetchJournalEntries()
@@ -41,4 +41,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect (mapStateToProps, {fetchJournalEntries})(JournalContainer)
+export default connect(mapStateToProps, {fetchJournalEntries})(JournalContainer)

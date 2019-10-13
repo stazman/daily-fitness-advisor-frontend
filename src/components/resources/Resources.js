@@ -12,14 +12,18 @@ const Resources = (props) => {
           <Col>
             { 
               props.resources && props.resources.map(resource => 
-                <ul>
-                  <li key={resource.id}>
-                    <h3 className='coral-text'>{resource.title}</h3>
-                    <p>{resource.description}</p>
-                    <a href={resource.url}>Go to Resource</a>
-                    <br></br><br></br>
-                  </li>
-                </ul>
+                <li key={resource.id}>
+                  <h3 className='coral-text'>
+                    {resource.title}
+                  </h3>
+                  <p>
+                    {resource.description}
+                  </p>
+                  <a href={resource.url}>
+                    Go to Resource
+                  </a>
+                  <br></br><br></br>
+                </li>
               )
             } 
           </Col>   

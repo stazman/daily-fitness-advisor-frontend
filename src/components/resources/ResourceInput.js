@@ -22,6 +22,12 @@ class ResourceInput extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault()
     this.props.addResource(this.state)
+    this.setState = ({
+      title: '',
+      description: '',
+      url: ''  
+    })
+    this.props.history.push('/resources');
   }
 
   render(){
@@ -30,7 +36,7 @@ class ResourceInput extends React.Component {
         <ButtonStyles>
 
           <Row className='left-justified-row'>
-            <Form>
+            <Form onSubmit={this.handleSubmit}>
               <Form.Group controlId='formTitle'>
                 <Form.Label>
                   Add a Resource
@@ -69,11 +75,12 @@ class ResourceInput extends React.Component {
                 <Form.Text>                
                   Copy the web address (ex. "www.example.com" or "example.com") found at the top of the website and paste it here.
                 </Form.Text>
-
               </Form.Group>
-                <Button type='submit' className='btn-submit'>
-                  Submit
-                </Button>
+
+              <Button type='submit' className='btn-submit'>
+                Submit
+              </Button>
+              
             </Form>
           </Row>
 

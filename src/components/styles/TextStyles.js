@@ -6,7 +6,7 @@ const TextStyles = styled.div`
     color: navy;
   }
 
-  ul {
+  li {
     list-style: none;
   }
 

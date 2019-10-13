@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { Route, Switch } from 'react-router-dom'
-import {fetchResources} from '../actions/fetchResources'
+import { fetchResources } from '../actions/fetchResources'
 import ResourceInput from '../components/resources/ResourceInput'
 import Resources from '../components/resources/Resources'
 

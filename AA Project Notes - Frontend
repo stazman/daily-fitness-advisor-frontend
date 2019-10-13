@@ -6,8 +6,7 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-
-  DONE Styles resources page
+DONE Submitting new resource persists data; makes changes for readibility; removes unneeded code
 
 
 
@@ -92,6 +91,9 @@ OVERALL APP
 
 COMPLETED TASKS: XXX
 
+
+
+
 Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
   DONE Renames, stubs NavBar container
   DONE Stubs structure/styled components for home/advisors page
@@ -117,6 +119,8 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Adds TextStyles
   DONE Styles new resource form
   DONE Adds styles to/changes styles in TextStyles
+  DONE Styles resources page
+
 
 
 DONE Adds DS_store to gitignore

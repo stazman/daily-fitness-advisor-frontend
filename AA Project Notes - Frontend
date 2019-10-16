@@ -6,8 +6,7 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Submitting new resource persists data; makes changes for readibility; removes unneeded code
-
+DONE Renders all journal entries latest entry first, totally through frontend code; removes unneeded code
 
 
 FUTURE TASKS (ongoing):
@@ -181,3 +180,4 @@ DONE Adds redux, react-redux
 DONE Adds rack-cors gem, configuration
 DONE Changes directory maneuvering in Procfile
 DONE Successfully renders to React server
+DONE Submitting new resource persists data; makes changes for readibility; removes unneeded code

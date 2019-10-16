@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { withRouter } from 'react-router-dom';
 import { addJournalEntry } from '../../actions/addJournalEntry'
 import { Row, Form, Button } from 'react-bootstrap'
 import RowStyles from '../styles/RowStyles'

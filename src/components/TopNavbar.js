@@ -8,7 +8,7 @@ const TopNavbar = () => {
   return (
     <>
       <NavbarStyles>
-        <Navbar expand='xl' className='nb-bg'>
+        <Navbar expand='xl' className='nb-bg' fixed='top'>
         <Navbar.Brand href='/'>Daily Weight Loss Advisor</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>

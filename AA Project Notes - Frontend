@@ -6,7 +6,8 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Renders all journal entries latest entry first, totally through frontend code; removes unneeded code
+DONE Affixes TopNavbar to top of page; adjusts container top margin accordingly
+
 
 
 FUTURE TASKS (ongoing):
@@ -120,8 +121,10 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Adds styles to/changes styles in TextStyles
   DONE Styles resources page
 
+  
 
 
+DONE Renders all journal entries latest entry first, totally through frontend code; removes unneeded code
 DONE Adds DS_store to gitignore
 DONE Adds global styling
 DONE Styles Navbar

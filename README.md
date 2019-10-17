@@ -1,3 +1,7 @@
+**README instructions for both the frontend (React/Redux) and backend (Rails) repo that comprise Daily Weight Advisor are found here: https://github.com/stazman/daily-weight-loss-advisor-app**
+
+**Instructions for just this repo:**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -13,6 +17,8 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### `npm test`
+
+**NOTE: There are currently no tests in this React/Redux app.**
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.

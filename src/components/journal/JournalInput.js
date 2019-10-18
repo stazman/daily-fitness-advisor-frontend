@@ -23,7 +23,6 @@ class JournalInput extends Component {
     this.setState({
       content: ''
     })
-    this.props.history.push('/journals');
   }
 
   render(){

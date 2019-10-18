@@ -6,8 +6,7 @@ BASIC STYLING
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Affixes TopNavbar to top of page; adjusts container top margin accordingly
-
+DONE Removes browser automaticallying going to all journal entries page on new entry submit
 
 
 FUTURE TASKS (ongoing):
@@ -120,8 +119,7 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Styles new resource form
   DONE Adds styles to/changes styles in TextStyles
   DONE Styles resources page
-
-  
+  DONE Affixes TopNavbar to top of page; adjusts container top margin accordingly
 
 
 DONE Renders all journal entries latest entry first, totally through frontend code; removes unneeded code

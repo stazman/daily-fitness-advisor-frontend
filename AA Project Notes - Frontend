@@ -1,12 +1,13 @@
 CURRENT FEATURE (ongoing):
 
-BASIC STYLING
+FOOD ADVISOR
 
 
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Removes browser automaticallying going to all journal entries page on new entry submit
+
+DONE Adds buttons to/edits Advisor page; stubs new food_advisor form
 
 
 FUTURE TASKS (ongoing):
@@ -91,7 +92,7 @@ OVERALL APP
 COMPLETED TASKS: XXX
 
 
-
+  Removes browser automatically going to all journal entries page on new entry submit
 
 Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
   DONE Renames, stubs NavBar container

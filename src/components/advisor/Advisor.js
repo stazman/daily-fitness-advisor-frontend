@@ -5,27 +5,27 @@ import ColumnStyles from '../styles/ColumnStyles'
 
 const Advisor = () => {
   return (
-    <>
-      <ColumnStyles>
-        <ButtonStyles>
+    <ColumnStyles>
+      <ButtonStyles>
 
-          <Col lg={12} className='col-lg-12 message-col'>
-              Losing weight is a marathon, not a sprint. But even a marathon begins with one step ...
-          </Col>
+        <Col lg={12} className='col-lg-12 message-col'>
+            Losing weight is a marathon, not a sprint. But even a marathon begins with just one step ...
+        </Col>
 
-          <Col 
-            lg={12} 
-            className='col-lg-12 button-col' 
-            style={{paddingTop: '.3em'}}
-          >
-            <Button variant="main" href='/advisors/new'>
-              Get Advice
-            </Button>
-          </Col>
+        <Col lg={12} className='col-lg-12 button-col' style={{paddingTop: '.3em'}}>
+          <Button variant="main" href='/food_advisors/new'>
+              Get Food Advice
+          </Button>
+        </Col>
 
-        </ButtonStyles>
-      </ColumnStyles>
-    </>
+        <Col lg={12} className='col-lg-12 button-col' style={{paddingTop: '.3em'}}>
+          <Button variant="main" href='/activity_advisors/new'>
+            Get Activity Advice
+          </Button>
+        </Col>
+
+      </ButtonStyles>
+    </ColumnStyles>
   )
 }
 

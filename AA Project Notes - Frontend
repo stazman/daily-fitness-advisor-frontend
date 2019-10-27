@@ -6,8 +6,7 @@ FOOD ADVISOR
 CURRENT FRONTEND TASKS (ongoing):
 
 
-
-DONE Adds buttons to/edits Advisor page; stubs new food_advisor form
+DONE Creates, stubs container for food advisor
 
 
 FUTURE TASKS (ongoing):
@@ -92,7 +91,10 @@ OVERALL APP
 COMPLETED TASKS: XXX
 
 
-  Removes browser automatically going to all journal entries page on new entry submit
+Food Advisor feature
+  DONE Adds buttons to/edits Advisor page; stubs new food_advisor form
+
+
 
 Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
   DONE Renames, stubs NavBar container
@@ -157,6 +159,7 @@ DONE Creates routes and renders distinct views for new journal entry form, a lis
 Make all journal entries, form into separate components:
 DONE Gives journal entry form, individual journal entries their own routes
 DONE Gives individual journal entries their own componentDONE Renames all-journal-entries feature Journal to AllJournalEntries; creates new component Journal; stubs component for an individual journal entry; adds Project Notes - Frontend
+DONE Removes browser automatically going to all journal entries page on new entry submit
 
 
 *** Below is before frontend/backend notes separation

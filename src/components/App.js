@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { Switch, Route } from 'react-router-dom'
 import TopNavbar from './TopNavbar'
 import Advisor from './advisor/Advisor'
+import FoodAdvisorsContainer from '../containers/FoodAdvisorsContainer'
 import TrackerHome from './trackers/TrackerHome'
 import JournalHome from './journal/JournalHome'
 import JournalContainer from '../containers/JournalContainer'
@@ -50,6 +51,8 @@ class App extends Component {
             }
           </Switch>
 
+          <FoodAdvisorsContainer />
+          
           <JournalContainer />
           
           <ResourcesContainer />

@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
+import manageFoodAdvice from './reducers/manageFoodAdvice'
 import manageJournal from './reducers/manageJournal'
 import manageResources from './reducers/manageResources'
 import { Provider } from 'react-redux'
@@ -13,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
 const rootReducer = combineReducers({
+  manageFoodAdvice,
   manageJournal,
   manageResources
 })

@@ -6,7 +6,7 @@ FOOD ADVISOR
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Creates, stubs container for food advisor; fetches all food advisors
+DONE Creates fetch; fetches all food advisors
 
 
 FUTURE TASKS (ongoing):
@@ -93,6 +93,8 @@ COMPLETED TASKS: XXX
 
 Food Advisor feature
   DONE Adds buttons to/edits Advisor page; stubs new food_advisor form
+  DONE Creates, stubs container for food advisor
+
 
 
 

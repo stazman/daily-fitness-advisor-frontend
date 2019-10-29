@@ -5,7 +5,12 @@ FOOD ADVISOR
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Adds container, reducer for food advisors to top-level components
+
+DONE Styles, completes content of new food advisor form
+
+New food advisor input persists to database
+
+Fetches and returns latest food advice with appropriate logic
 
 
 FUTURE TASKS (ongoing):
@@ -94,6 +99,8 @@ Food Advisor feature
   DONE Adds buttons to/edits Advisor page; stubs new food_advisor form
   DONE Creates, stubs container for food advisor
   DONE Creates, stubs reducer for food advisors
+  DONE Adds container, reducer for food advisors to top-level components
+
 
 
 Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features

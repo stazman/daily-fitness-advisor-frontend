@@ -6,6 +6,11 @@ const RowStyles = styled.div`
     justify-content: center;
   }
 
+  div.row.centered-row-form {
+    justify-content: center;
+    padding-top: 1.5em;
+  }
+
   div.row.left-justified-row {
     justify-content: left;
     padding-left: 1em;

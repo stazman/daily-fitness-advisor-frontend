@@ -6,9 +6,7 @@ FOOD ADVISOR
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Creates action creator for new food advisor, adds it to reducer
-
-New food advisor form persists to database on submit
+DONE New food advisor form persists to database on submit
 
 Fetches and returns latest food advice with appropriate logic
 
@@ -110,6 +108,7 @@ Food Advisor feature
   DONE Creates, stubs reducer for food advisors
   DONE Adds container, reducer for food advisors to top-level components
   DONE Styles, completes content of new food advisor form
+  DONE Creates action creator for new food advisor, adds it to reducer
 
 
 

@@ -5,10 +5,10 @@ FOOD ADVISOR
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Completes increasing likes button final assessment challenge
 
+DONE Creates action creator for new food advisor, adds it to reducer
 
-New food advisor input persists to database
+New food advisor form persists to database on submit
 
 Fetches and returns latest food advice with appropriate logic
 
@@ -47,7 +47,6 @@ UNCODED FEATURES
   Add community feature
 
   Containers for later features:
-    AdvisorContainer
     TrackerContainer
     WeightLossTrackerContainer (Has form for new weighing, current weight, weight history)
     HabitTracker (Shows Record of Habits for week, month, etc.)
@@ -64,6 +63,13 @@ RESOURCES
   Truncates description on all resources page
 
   Adds delete functionality
+
+
+ADVISOR
+
+  Add date
+   
+   
 
 
 JOURNAL
@@ -95,6 +101,9 @@ OVERALL APP
 COMPLETED TASKS: XXX
 
 
+
+
+
 Food Advisor feature
   DONE Adds buttons to/edits Advisor page; stubs new food_advisor form
   DONE Creates, stubs container for food advisor
@@ -104,6 +113,7 @@ Food Advisor feature
 
 
 
+DONE Completes increasing likes button final assessment challenge
 
 Stub basic CSS/Bootstrap structure, styled components for home page, journal, resource features
   DONE Renames, stubs NavBar container

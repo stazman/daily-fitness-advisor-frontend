@@ -51,7 +51,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_big_meals'
                       value={2}
-                      checked={this.state.how_big_meals === 2}  
+                      checked={this.state.checked}  
                     />
                     <Form.Check 
                       label="medium" 
@@ -60,7 +60,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_big_meals'
                       value={1}
-                      checked={this.state.how_big_meals === 1}    
+                      checked={this.state.checked}    
                     />
                     <Form.Check 
                       label="small" 
@@ -69,7 +69,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_big_meals'
                       value={0}
-                      checked={this.state.how_big_meals === 0}  
+                      checked={this.state.checked}  
                     />
                   </div>
                 ))}
@@ -87,7 +87,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_much_snacked'
                       value={2}
-                      checked={this.state.how_much_snacked === 2}  
+                      checked={this.state.checked}  
                     />
                     <Form.Check 
                       label="some" 
@@ -96,7 +96,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_much_snacked'
                       value={1}
-                      checked={this.state.how_much_snacked === 1}  
+                      checked={this.state.checked}  
                     />
                     <Form.Check 
                       label="a little" 
@@ -105,7 +105,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_much_snacked'
                       value={0}
-                      checked={this.state.how_much_snacked === 0}  
+                      checked={this.state.checked}  
                     />
                   </div>
                 ))}
@@ -124,7 +124,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_healthy'
                       value={2}
-                      checked={this.state.how_healthy === 2}   
+                      checked={this.state.checked}   
                     />
                     <Form.Check 
                       label="somewhat healthy" 
@@ -133,7 +133,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_healthy'
                       value={1}
-                      checked={this.state.how_healthy === 1}   
+                      checked={this.state.checked}   
                     />
                     <Form.Check 
                       label="very healthy" 
@@ -142,7 +142,7 @@ class FoodAdvisorInput extends React.Component {
                       onChange={e => this.handleChange(e)}
                       name='how_healthy'
                       value={0}
-                      checked={this.state.how_healthy === 0}  
+                      checked={this.state.checked}  
                     />
                   </div>
                 ))}

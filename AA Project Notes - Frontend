@@ -6,7 +6,7 @@ FOOD ADVISOR
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Radio buttons show as checked on food advisor form when clicked
+DONE Adds, stubs FoodAdvisors
 
 Fetches and returns latest food advice with appropriate logic
 
@@ -110,6 +110,8 @@ Food Advisor feature
   DONE Styles, completes content of new food advisor form
   DONE Creates action creator for new food advisor, adds it to reducer
   DONE New food advisor form persists to database on submit
+  DONE Radio buttons show as checked on food advisor form when clicked
+
 
 
 DONE Completes increasing likes button final assessment challenge

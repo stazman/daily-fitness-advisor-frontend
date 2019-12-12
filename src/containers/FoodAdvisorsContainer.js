@@ -20,15 +20,15 @@ class FoodAdvisorsContainer extends React.Component {
             component={FoodAdvisorInput}
           />
 
-          {/* <Route
+          <Route
             exact path='/food_advisors/'
             render={(routerProps) => <FoodAdvisors {...routerProps} resources={this.props.foodAdvisors} />}
           /> */}
 
-          {/* <Route
+          <Route
             exact path='/food_advisors/'
             render={(routerProps) => <FoodAdvisors {...routerProps} resources={this.props.foodAdvisors} />}
-          /> */}
+          />
 
         </Switch>
       </div>

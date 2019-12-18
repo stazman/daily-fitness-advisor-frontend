@@ -27,6 +27,7 @@ class FoodAdvisorInput extends React.Component {
       how_much_snacked: null,
       how_healthy: null
     })
+    this.props.history.push('/food_advisors');
   }
  
   render(){

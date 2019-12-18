@@ -5,9 +5,11 @@ FOOD ADVISOR
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Shows raw values from most recent daily food advice input
+DONE Renders latest food advice with appropriate control flow
 
-Returns latest food advice with appropriate logic
+Formats food advice results
+
+Refactors control flow in FoodAdvisors
 
 
 FUTURE TASKS (ongoing):
@@ -111,6 +113,9 @@ Food Advisor feature
   DONE New food advisor form persists to database on submit
   DONE Radio buttons show as checked on food advisor form when clicked
   DONE Adds, stubs FoodAdvisors
+  DONE Shows raw values from most recent daily food advice input
+
+
 
 
 

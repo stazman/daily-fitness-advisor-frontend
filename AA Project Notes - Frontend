@@ -5,9 +5,9 @@ FOOD ADVISOR
 
 CURRENT FRONTEND TASKS (ongoing):
 
-DONE Renders latest food advice with appropriate control flow
+DONE Styles food advice results; adds no advice result logic, message
 
-Formats food advice results
+Adds different messages depending on previous day input
 
 Refactors control flow in FoodAdvisors
 
@@ -148,6 +148,7 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Adds styles to/changes styles in TextStyles
   DONE Styles resources page
   DONE Affixes TopNavbar to top of page; adjusts container top margin accordingly
+  DONE Renders latest food advice with appropriate control flow
 
 
 DONE Renders all journal entries latest entry first, totally through frontend code; removes unneeded code

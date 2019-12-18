@@ -8,13 +8,13 @@ function FoodAdvisors(props){
   let howBigMeals = ''
   let howMuchSnacked = ''
   let howHealthy = ''
+  let noAdvice = ''
 
   return (
    <RowStyles>
      <TextStyles>
  
-       <Row className='left-justified-row'>
-         <Col>
+       <Row className='centered-row-form'>
            {
              props.foodAdvisors && props.foodAdvisors.map((function(foodAdvisor) {
 
@@ -45,12 +45,24 @@ function FoodAdvisors(props){
                     ) {
                       howHealthy = "Be sure to make healthy choices when you have a meal or snack."
                   }
+                  if (howBigMeals === '' && howMuchSnacked === '' && howHealthy === ''){
+                    noAdvice = "Nothing to pay special attention to now! Keep up the good work!"
+                  }
                 } 
-                return `${howBigMeals}${howMuchSnacked}${howHealthy}`
+                return (
+                  <div>
+                    <h3>{howBigMeals}</h3>
+                    <br></br>
+                    <h3>{howMuchSnacked}</h3>
+                    <br></br>
+                    <h3>{howHealthy}</h3>
+                    <br></br>
+                    <h3>{noAdvice}</h3>
+                  </div>
+                )
                })
              )
            }
-         </Col>  
        </Row>
       
      </TextStyles>

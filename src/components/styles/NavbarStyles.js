@@ -13,9 +13,27 @@ const NavbarStyles = styled.div`
   button.navbar-toggler {
     display: none;
   }
-  
+
   a.navbar-brand.top {
     font-size: 2rem;
+  }
+
+  a.dropdown-toggle.nav-link::after {
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  
+  div.mr-auto.navbar-nav {
+    position: fixed;
+    top: 2em;
+    right: 2em;
+  }
+
+  a.dropdown-item {
+    font-size: 1.6rem;
   }
 `
 export default NavbarStyles

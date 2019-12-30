@@ -11,7 +11,7 @@ const TopNavbar = () => {
         <Navbar expand='xl' className='nb-bg' fixed='top'>
         <Navbar.Brand href='/' className='top'>DWLA</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
+        {/* <Navbar.Collapse id='basic-navbar-nav'> */}
           <Nav className='mr-auto'>
             <NavDropdown id='basic-nav-dropdown'>
               <NavDropdown.Item href='/'>About DWLA </NavDropdown.Item>
@@ -20,7 +20,7 @@ const TopNavbar = () => {
               <NavDropdown.Item href='/'>Login/Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-        </Navbar.Collapse>
+        {/* </Navbar.Collapse> */}
         </Navbar>
       </NavbarStyles>
     </>

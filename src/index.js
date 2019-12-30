@@ -40,6 +40,10 @@ ReactDOM.render(
           background-color: #5D72D0;
           color: white;
         }
+
+        html {
+          font-size: 62.5%;
+        }
       `}
     </style>
     <Provider store={store}>

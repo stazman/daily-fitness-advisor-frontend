@@ -6,7 +6,7 @@ NAVBARS
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Sets base percentage for html fonts; sets navbar brand font size for lowest breakpoint
+DONE Sets position, size of dropdown caret, dropdown window, dropdown items on top navbar
 
 Edits bottom navbar style for lowest breakpoint
 
@@ -165,7 +165,7 @@ Stub basic CSS/Bootstrap structure, styled components for home page, journal, re
   DONE Styles resources page
   DONE Affixes TopNavbar to top of page; adjusts container top margin accordingly
   DONE Renders latest food advice with appropriate control flow
-
+  DONE Sets base percentage for html fonts; sets navbar brand font size for lowest breakpoint
 
 DONE Renders all journal entries latest entry first, totally through frontend code; removes unneeded code
 DONE Adds DS_store to gitignore

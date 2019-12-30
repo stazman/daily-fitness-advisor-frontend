@@ -9,5 +9,9 @@ const NavbarStyles = styled.div`
   .navbar-light .navbar-nav .nav-link {
     color: white;
   }
+
+  button.navbar-toggler {
+    display: none;
+  }
 `
 export default NavbarStyles

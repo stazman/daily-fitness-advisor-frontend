@@ -13,6 +13,14 @@ const TextStyles = styled.div`
   .coral-text {
     color: #f88379;
   }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+  
+  h5 {
+    font-size: 1.2rem;
+  }
 `
 
 export default TextStyles

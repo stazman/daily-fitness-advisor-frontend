@@ -1,14 +1,12 @@
 CURRENT FEATURE (ongoing):
 
-NAVBARS
+RESPONSIVE LAYOUT ACROSS APP
 
 
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Sets bottom navbar font style, item spacing for 240px, lowest breakpoint
-
-Edits main button style for lowest breakpoint, advisor home page message
+DONE Sets styling for buttons, column spacing, edits, styles message on advisor home page, for 240pxm lowest breakpoint
 
 Edits Food Advisor form for lowest breakpoint
 
@@ -115,8 +113,7 @@ COMPLETED TASKS: XXX
 Navbars
   DONE Removes unneeded hamburger menu icon from app
   DONE Sets position, size of dropdown caret, dropdown window, dropdown items on top navbar
-
-
+  DONE Sets bottom navbar font style, item spacing for 240px, lowest breakpoint
 
 
 Food Advisor feature

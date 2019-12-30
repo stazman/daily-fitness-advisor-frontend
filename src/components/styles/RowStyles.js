@@ -8,7 +8,9 @@ const RowStyles = styled.div`
 
   div.row.centered-row-form {
     justify-content: center;
-    padding-top: 1.5em;
+    padding-top: 6.5rem;
+    margin-left: 2.5rem;
+    width: 80%;
   }
 
   div.row.left-justified-row {

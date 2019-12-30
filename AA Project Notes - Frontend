@@ -6,9 +6,7 @@ NAVBARS
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Sets position, size of dropdown caret, dropdown window, dropdown items on top navbar
-
-Edits bottom navbar style for lowest breakpoint
+DONE Sets bottom navbar font style, item spacing for 240px, lowest breakpoint
 
 Edits main button style for lowest breakpoint, advisor home page message
 
@@ -116,6 +114,8 @@ COMPLETED TASKS: XXX
 
 Navbars
   DONE Removes unneeded hamburger menu icon from app
+  DONE Sets position, size of dropdown caret, dropdown window, dropdown items on top navbar
+
 
 
 

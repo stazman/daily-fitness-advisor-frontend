@@ -39,7 +39,6 @@ const NavbarStyles = styled.div`
   a.navbar-brand.bottom {
     font-size: 1.6rem;
     margin-right: 1rem;
-    padding: 0, .2rem, 0, .2rem;
-  } 
+  }
 `
 export default NavbarStyles

@@ -7,10 +7,10 @@ const BottomNavBar = () => {
     <>
     <NavbarStyles>
       <Navbar expand='xl' className='nb-bg' fixed='bottom'>
-        <Navbar.Brand href='/tracker_home'>Trackers</Navbar.Brand>
-        <Navbar.Brand href='/journal_home'>Journal</Navbar.Brand>
-        <Navbar.Brand href='/resource_home'>Resources</Navbar.Brand>
-        <Navbar.Brand href='/community_home'>Community</Navbar.Brand>
+        <Navbar.Brand href='/tracker_home' className='bottom'>Trackers</Navbar.Brand>
+        <Navbar.Brand href='/journal_home' className='bottom'>Journal</Navbar.Brand>
+        <Navbar.Brand href='/resource_home' className='bottom'>Resources</Navbar.Brand>
+        <Navbar.Brand href='/community_home'className='bottom'>Community</Navbar.Brand>
       </Navbar>
     </NavbarStyles>
     </>

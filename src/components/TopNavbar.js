@@ -9,7 +9,7 @@ const TopNavbar = () => {
     <>
       <NavbarStyles>
         <Navbar expand='xl' className='nb-bg' fixed='top'>
-        <Navbar.Brand href='/'>DWLA</Navbar.Brand>
+        <Navbar.Brand href='/' className='top'>DWLA</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>

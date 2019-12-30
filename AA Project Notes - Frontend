@@ -6,9 +6,7 @@ NAVBARS
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Removes unneeded hamburger menu icon from app
-
-Edits top navbar styles for lowest breakpoint
+DONE Sets base percentage for html fonts; sets navbar brand font size for lowest breakpoint
 
 Edits bottom navbar style for lowest breakpoint
 
@@ -116,6 +114,9 @@ OVERALL APP
 
 COMPLETED TASKS: XXX
 
+Navbars
+  DONE Removes unneeded hamburger menu icon from app
+
 
 
 Food Advisor feature
@@ -131,9 +132,6 @@ Food Advisor feature
   DONE Shows raw values from most recent daily food advice input
   DONE Styles food advice results; adds no advice result logic, message
   DONE Refactors control flow in FoodAdvisors
-
-
-
 
 
 

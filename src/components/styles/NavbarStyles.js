@@ -13,5 +13,9 @@ const NavbarStyles = styled.div`
   button.navbar-toggler {
     display: none;
   }
+  
+  a.navbar-brand.top {
+    font-size: 2rem;
+  }
 `
 export default NavbarStyles

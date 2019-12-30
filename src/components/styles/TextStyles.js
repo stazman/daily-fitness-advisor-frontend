@@ -14,6 +14,10 @@ const TextStyles = styled.div`
     color: #f88379;
   }
 
+  h3 {
+    font-size: 1.8rem;
+  }
+  
   h4 {
     font-size: 1.4rem;
   }

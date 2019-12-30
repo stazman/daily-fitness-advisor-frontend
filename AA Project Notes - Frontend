@@ -6,15 +6,13 @@ RESPONSIVE LAYOUT ACROSS APP
 CURRENT FRONTEND TASKS (ongoing):
 
 
-DONE Sets styling for buttons, column spacing, edits, styles message on advisor home page, for 240pxm lowest breakpoint
+DONE Sets font sizing on journal, resource home pages for 240px, lowest breakpoint
+
+Edits styles on resource home page for lowest breakpoint
 
 Edits Food Advisor form for lowest breakpoint
 
 Edits food advice page for lowest breakpoint
-
-Edits styles on journal home page for lowest breakpoint
-
-Edits styles on resource home page for lowest breakpoint
 
 Edits styles on new journal entry form for lowest breakpoint
 
@@ -109,6 +107,10 @@ OVERALL APP
 
 
 COMPLETED TASKS: XXX
+
+Responsive Layout Across App
+  DONE Sets styling for buttons, column spacing, edits, styles message on advisor home page, for 240pxm lowest breakpoint
+
 
 Navbars
   DONE Removes unneeded hamburger menu icon from app

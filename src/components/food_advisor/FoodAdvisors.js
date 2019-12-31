@@ -14,7 +14,7 @@ function FoodAdvisors(props){
    <RowStyles>
      <TextStyles>
  
-       <Row className='centered-row-form'>
+       <Row className='centered-row-advice'>
             { 
               props.foodAdvisors && props.foodAdvisors.map((function(foodAdvisor) {
 
@@ -55,20 +55,21 @@ function FoodAdvisors(props){
                   }
                 } 
                 return (
-                  <div>
-                    <h3>{howBigMeals}</h3>
+                  <>
+                    <div className='advice-container'><h5>{howBigMeals}</h5></div>
                     <br></br>
-                    <h3>{howMuchSnacked}</h3>
+                    <div className='advice-container'><h5>{howMuchSnacked}</h5></div>
                     <br></br>
-                    <h3>{howHealthy}</h3>
+                    <div className='advice-container'><h5>{howHealthy}</h5></div>
                     <br></br>
-                    <h3>{noAdvice}</h3>
-                  </div>
+                    <div className='advice-container'><h5>{noAdvice}</h5></div>
+                  </>
                 )
               })
             )
           }
-       </Row>
+
+        </Row>
       
      </TextStyles>
    </RowStyles>

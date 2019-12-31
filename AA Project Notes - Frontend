@@ -7,18 +7,13 @@ CURRENT FRONTEND TASKS (ongoing):
 
 
 
-DONE Edits user instructions, sets styling in new resource form for 240px, lowest breakpoint
 
+DONE Sets styling in food advice page for 240px, lowest breakpoint; sets specific advice items in divs
 
-
-
-Edits food advice page for lowest breakpoint
 
 Edits styles on all journal entries page for lowest breakpoint
 
 Edits styles on all resources page for lowest breakpoint
-
-
 
 
 
@@ -109,6 +104,7 @@ Responsive Layout Across App
   DONE Sets font sizing on journal, resource home pages for 240px, lowest breakpoint
   DONE Sets styling in food Advisor form for 240px, lowest breakpoint
   DONE Sets styling in new journal entry form for 240px, lowest breakpoint
+  DONE Edits user instructions, sets styling in new resource form for 240px, lowest breakpoint
 
 
 Navbars

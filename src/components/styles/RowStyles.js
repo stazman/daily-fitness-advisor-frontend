@@ -26,6 +26,18 @@ const RowStyles = styled.div`
     margin-left: .5rem;
     width: 95%;
   }
+
+  div.row.centered-row-advice {
+    justify-content: center;
+    padding-top: 6.5rem;
+    margin-left: .5rem;
+    width: 100%;
+  }
+
+  div.advice-container {
+    margins: 0;
+    padding-bottom: 2em;
+  }
 `
 
 export default RowStyles

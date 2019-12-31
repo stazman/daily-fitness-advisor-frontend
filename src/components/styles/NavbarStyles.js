@@ -8,6 +8,7 @@ const NavbarStyles = styled.div`
   .navbar-light .navbar-brand,
   .navbar-light .navbar-nav .nav-link {
     color: white;
+    padding: 0;
   }
 
   button.navbar-toggler {
@@ -16,6 +17,11 @@ const NavbarStyles = styled.div`
 
   a.navbar-brand.top {
     font-size: 2rem;
+  }
+
+  a.navbar-brand.bottom {
+    font-size: 1.2rem;
+    margin-right: 0;
   }
 
   a.dropdown-toggle.nav-link::after {
@@ -34,11 +40,6 @@ const NavbarStyles = styled.div`
 
   a.dropdown-item {
     font-size: 1.6rem;
-  }
-
-  a.navbar-brand.bottom {
-    font-size: 1.6rem;
-    margin-right: 1rem;
   }
 `
 export default NavbarStyles

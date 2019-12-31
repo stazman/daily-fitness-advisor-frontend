@@ -25,6 +25,10 @@ const TextStyles = styled.div`
   h5 {
     font-size: 1.2rem;
   }
+
+  label.form-label {
+    font-size: 1.6rem;
+  }
 `
 
 export default TextStyles

@@ -19,6 +19,13 @@ const RowStyles = styled.div`
     padding-top: 3em;
     padding-bottom: 3em;
   }
+
+  div.row.left-justified-row-form {
+    justify-content: left;
+    padding-top: 6.5rem;
+    margin-left: .5rem;
+    width: 95%;
+  }
 `
 
 export default RowStyles

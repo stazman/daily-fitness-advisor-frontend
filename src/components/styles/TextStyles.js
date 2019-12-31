@@ -12,6 +12,12 @@ const TextStyles = styled.div`
 
   .coral-text {
     color: #f88379;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    }
   }
 
   h3 {

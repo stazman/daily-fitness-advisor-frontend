@@ -16,7 +16,7 @@ const JournalHome = () => {
               <Row className='centered-row'>
                 <Col lg={12} className='col-lg-12 message-col'>
                   <h3>
-                    Your Weight Loss Journal
+                    Your Journal
                   </h3>
                 </Col>
 

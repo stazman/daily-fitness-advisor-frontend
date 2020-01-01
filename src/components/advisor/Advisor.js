@@ -15,6 +15,10 @@ const MediaQueries = styled.div`
     a.btn-main {
       font-size: 1.6rem;
     }
+    div.col-lg-12.button-col {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
   }
 
   @media ${device.mobileM} {
@@ -23,6 +27,10 @@ const MediaQueries = styled.div`
     }
     a.btn-main {
       font-size: 2rem;
+    }
+    div.col-lg-12.button-col {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
     }
   }
 
@@ -42,10 +50,14 @@ const MediaQueries = styled.div`
 
   @media ${device.tabletL} {
     h4 {
-      font-size: 2.8rem;
+      font-size: 3rem;
     }
     a.btn-main {
       font-size: 2.8rem;
+    }
+    div.col-lg-12.button-col {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
     }
   }
 
@@ -56,6 +68,15 @@ const MediaQueries = styled.div`
     a.btn-main {
       font-size: 3.6rem;
     }
+    div.col-lg-12.button-col {
+      padding-bottom: 7rem;
+    }
+  }
+
+  @media ${device.laptopL} {
+    div.col-lg-12.button-col {
+      padding-top: 7rem;
+      padding-bottom: 8rem;
   }
 
   @media ${device.desktop} {
@@ -65,6 +86,14 @@ const MediaQueries = styled.div`
     a.btn-main {
       font-size: 4rem;
     }
+    div.col-lg-12.button-col {
+      padding-top: 8.5rem;
+      padding-bottom: 10rem;
+    }
+    div.sc-bxivhb.icWcwL {
+      width: 120%;
+      margin-left: -16rem;
+    } 
   }
 `
 
@@ -75,8 +104,8 @@ const Advisor = () => {
         <ButtonStyles>
           <TextStyles>
             <Col lg={12} className='col-lg-12 message-col'>
-                <h4 style={{lineHeight: '150%'}}>
-                  Just click to get advice, answer a few questions, and stay fit!
+                <h4 style={{lineHeight: '165%'}}>
+                  Just click to answer a few questions, get advice, and stay fit!
                 </h4>
             </Col>
 

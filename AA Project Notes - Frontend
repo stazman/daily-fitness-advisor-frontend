@@ -9,9 +9,13 @@ Establishes breakpoints for screen widths larger than 240px
 
   DONE Adds component for device breakpoints
   
-  DONE Sets breakpoints for message, button font sizes in advisor home page
+  DONE Sets breakpoints for message, button font sizes
   
-  
+  DONE Sets breakpoints for spacing among buttons, message 
+
+
+
+
   Increases base button link sizes
   
 

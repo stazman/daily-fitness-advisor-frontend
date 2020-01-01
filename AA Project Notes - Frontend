@@ -5,15 +5,19 @@ RESPONSIVE LAYOUT ACROSS APP
 
 CURRENT FRONTEND TASKS (ongoing):
 
-
-DONE Sets styling in resources page for 240px, base width for breakpoints; edits journal home page for brevity
-
-DONE Sets styling in all journal entries page for 240px, base width for breakpoints; decreases font size in btn-submit buttons
-
-
-
 Establishes breakpoints for screen widths larger than 240px
 
+  DONE Adds component for device breakpoints
+  
+  DONE Sets breakpoints for message, button font sizes in advisor home page
+  
+  
+  Increases base button link sizes
+  
+
+
+
+  
   Adjusts spacing in BottomNavbar for responsiveness
   
 
@@ -99,6 +103,9 @@ Responsive Layout Across App
   DONE Sets styling in new journal entry form for 240px, lowest breakpoint
   DONE Edits user instructions, sets styling in new resource form for 240px, lowest breakpoint
   DONE Sets styling in food advice page for 240px, lowest breakpoint; sets specific advice items in divs
+  DONE Sets styling in resources page for 240px, base width for breakpoints; edits journal home page for brevity
+  DONE Sets styling in all journal entries page for 240px, base width for breakpoints; decreases font size in btn-submit buttons
+
 
 
 Navbars

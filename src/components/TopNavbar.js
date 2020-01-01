@@ -10,7 +10,7 @@ const MediaQueries = styled.div`
 
   @media ${device.mobileS} {
     a.navbar-brand.top {
-      font-size: 2.75rem;
+      font-size: 2.3rem;
     }
     a.dropdown-toggle.nav-link::after {
       font-size: 2.5rem;
@@ -27,7 +27,7 @@ const MediaQueries = styled.div`
 
   @media ${device.mobileM} {
     a.navbar-brand.top {
-      font-size: 3.5rem;
+      font-size: 2.6rem;
     }
     a.dropdown-toggle.nav-link::after {
       font-size: 3rem;
@@ -78,7 +78,7 @@ const MediaQueries = styled.div`
     }  
   }
 
-  @media ${device.custDropdownPos} {
+  @media ${device.custPos} {
     div.mr-auto.navbar-nav {
       position: fixed;
       top: 6rem;

@@ -17,6 +17,7 @@ Establishes breakpoints for screen widths larger than 240px
 
   DONE Sets breakpoints, adjusts spacing for top navbar contents
 
+  DONE Removes unneeded, adds custom device categories
 
 
   Increases base button link sizes

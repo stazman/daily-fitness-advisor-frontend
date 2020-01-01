@@ -25,15 +25,15 @@ const TextStyles = styled.div`
   }
   
   h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   
   h5 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   label.form-label {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 `
 

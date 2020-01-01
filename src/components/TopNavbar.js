@@ -15,6 +15,14 @@ const MediaQueries = styled.div`
     a.dropdown-toggle.nav-link::after {
       font-size: 2.5rem;
     }
+    a.dropdown-item {
+      font-size: 2rem;
+    }
+    div.mr-auto.navbar-nav {
+      position: fixed;
+      top: 3em;
+      right: 4em;
+    }    
   }
 
   @media ${device.mobileM} {
@@ -24,6 +32,19 @@ const MediaQueries = styled.div`
     a.dropdown-toggle.nav-link::after {
       font-size: 3rem;
     }
+    a.dropdown-item {
+      font-size: 2.5rem;
+    }
+    div.mr-auto.navbar-nav {
+      position: fixed;
+      top: 4em;
+      right: 5em;
+    }      
+  }
+
+  @media ${device.tabletS} {
+    a.dropdown-item {
+      font-size: 3rem;
   }
 
   @media ${device.tabletL} {
@@ -33,6 +54,14 @@ const MediaQueries = styled.div`
     a.dropdown-toggle.nav-link::after {
       font-size: 3.5rem;
     }
+    a.dropdown-item {
+      font-size: 3.5rem;
+    }
+    div.mr-auto.navbar-nav {
+      position: fixed;
+      top: 4em;
+      right: 6em;
+    }        
   }
 
   @media ${device.laptop} {
@@ -42,6 +71,18 @@ const MediaQueries = styled.div`
     a.dropdown-toggle.nav-link::after {
       font-size: 4rem;
     }
+    div.mr-auto.navbar-nav {
+      position: fixed;
+      top: 6em;
+      right: 7em;
+    }  
+  }
+
+  @media ${device.custDropdownPos} {
+    div.mr-auto.navbar-nav {
+      position: fixed;
+      top: 6rem;
+      right: 32rem;
   }
 
   @media ${device.desktop} {
@@ -50,6 +91,9 @@ const MediaQueries = styled.div`
     }
     a.dropdown-toggle.nav-link::after {
       font-size: 4.5rem;
+    }
+    a.dropdown-item {
+      font-size: 4rem;
     }
   }
 `

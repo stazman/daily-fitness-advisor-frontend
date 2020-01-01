@@ -8,7 +8,7 @@ const NavbarStyles = styled.div`
   .navbar-light .navbar-brand,
   .navbar-light .navbar-nav .nav-link {
     color: white;
-    padding: 0;
+    padding: .5rem;
   }
 
   button.navbar-toggler {

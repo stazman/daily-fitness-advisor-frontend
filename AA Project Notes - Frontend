@@ -7,24 +7,18 @@ CURRENT FRONTEND TASKS (ongoing):
 
 Establishes breakpoints for screen widths larger than 240px
 
-  DONE Adds component for device breakpoints
+  DONE Adds feature links to dropdown menu
+
   
-  DONE Sets breakpoints for message, button font sizes
-  
-  DONE Sets breakpoints for spacing among buttons, message 
+  Adds feature links to top navbar for larger device sizes
 
-  DONE Sets breakpoints for font sizes
+  Establishes breakpoints, visibility of top navbar links
 
-  DONE Sets breakpoints, adjusts spacing for top navbar contents
+  Sets breakpoints for journal, resources home page content
 
-  DONE Removes unneeded, adds custom device categories
+  Sets breakpoints for feature forms
 
-  DONE Adjusts nav brand font sizing for aesthetic proportionality
-
-  DONE Sets breakpoints for font sizing, visibility
-
-
-  NEXT Sets breakpoints for journal, resources home page content
+  Sets breakpoints for feature results pages
 
 
 
@@ -32,9 +26,6 @@ Establishes breakpoints for screen widths larger than 240px
 
   Increases base button link sizes
   
-
-
-
   
   Adjusts spacing in BottomNavbar for responsiveness
   
@@ -123,6 +114,14 @@ Responsive Layout Across App
   DONE Sets styling in food advice page for 240px, lowest breakpoint; sets specific advice items in divs
   DONE Sets styling in resources page for 240px, base width for breakpoints; edits journal home page for brevity
   DONE Sets styling in all journal entries page for 240px, base width for breakpoints; decreases font size in btn-submit buttons
+  DONE Adds component for device breakpoints
+  DONE Sets breakpoints for message, button font sizes
+  DONE Sets breakpoints for spacing among buttons, message 
+  DONE Sets breakpoints for font sizes
+  DONE Sets breakpoints, adjusts spacing for top navbar contents
+  DONE Removes unneeded, adds custom device categories
+  DONE Adjusts nav brand font sizing for aesthetic proportionality
+  DONE Sets breakpoints for font sizing, visibility
 
 
 

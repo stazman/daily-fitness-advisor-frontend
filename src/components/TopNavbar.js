@@ -113,6 +113,11 @@ const TopNavbar = () => {
                 <NavDropdown.Item href='/'>Contact DWLA</NavDropdown.Item>
                 <NavDropdown.Item href='/'>Settings</NavDropdown.Item>
                 <NavDropdown.Item href='/'>Login/Logout</NavDropdown.Item>
+                <NavDropdown.Item class="divider">-------------------</NavDropdown.Item>
+                <NavDropdown.Item href='/'>Trackers</NavDropdown.Item>
+                <NavDropdown.Item href='/'>Journal</NavDropdown.Item>
+                <NavDropdown.Item href='/'>Resources</NavDropdown.Item>
+                <NavDropdown.Item href='/'>Community</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           {/* </Navbar.Collapse> */}

@@ -8,7 +8,6 @@ const NavbarStyles = styled.div`
   .navbar-light .navbar-brand,
   .navbar-light .navbar-nav .nav-link {
     color: white;
-    padding: .5rem;
   }
 
   button.navbar-toggler {
@@ -22,6 +21,7 @@ const NavbarStyles = styled.div`
   a.navbar-brand.bottom {
     font-size: 1.2rem;
     margin-right: 0;
+    padding: .2rem;
   }
 
   a.dropdown-toggle.nav-link::after {

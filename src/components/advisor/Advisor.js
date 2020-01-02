@@ -23,7 +23,7 @@ const MediaQueries = styled.div`
 
   @media ${device.mobileM} {
     h4 {
-      font-size: 2.2rem;
+      font-size: 2.3rem;
     }
     a.btn-main {
       font-size: 2rem;
@@ -104,7 +104,7 @@ const Advisor = () => {
         <ButtonStyles>
           <TextStyles>
             <Col lg={12} className='col-lg-12 message-col'>
-                <h4 style={{lineHeight: '165%'}}>
+                <h4 style={{lineHeight: '150%'}}>
                   Just click to answer a few questions, get advice, and stay fit!
                 </h4>
             </Col>

@@ -11,9 +11,8 @@ Establishes breakpoints for screen widths larger than 240px
 
   DONE Adds feature links to top navbar for larger device sizes
 
+  DONE Establishes breakpoints, visibility of top navbar links
   
-
-  Establishes breakpoints, visibility of top navbar links
 
   Sets breakpoints for journal, resources home page content
 

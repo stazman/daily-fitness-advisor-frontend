@@ -105,6 +105,10 @@ const TopNavbar = () => {
         <NavbarStyles>
           <Navbar expand='xl' className='nb-bg' fixed='top'>
           <Navbar.Brand href='/' className='top'>DWLA</Navbar.Brand>
+            <Nav.Link className='top-link'href="/tracker_home">Trackers</Nav.Link>
+          <Nav.Link className='top-link'href="/journal_home">Journal</Nav.Link>
+          <Nav.Link className='top-link'href="/resource_home">Resources</Nav.Link>
+          <Nav.Link className='top-link'href="/community_home">Community</Nav.Link>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           {/* <Navbar.Collapse id='basic-navbar-nav'> */}
             <Nav className='mr-auto'>

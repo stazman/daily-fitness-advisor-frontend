@@ -9,8 +9,9 @@ Establishes breakpoints for screen widths larger than 240px
 
   DONE Adds feature links to dropdown menu
 
+  DONE Adds feature links to top navbar for larger device sizes
+
   
-  Adds feature links to top navbar for larger device sizes
 
   Establishes breakpoints, visibility of top navbar links
 

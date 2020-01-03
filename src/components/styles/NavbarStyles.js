@@ -16,12 +16,25 @@ const NavbarStyles = styled.div`
 
   a.navbar-brand.top {
     font-size: 2rem;
+    padding: 0rem;
   }
 
   a.navbar-brand.bottom {
     font-size: 1.2rem;
     margin-right: 0;
     padding: .2rem;
+  }
+
+  nav a.top-link.nav-link {
+    font-size: 2.5rem;
+    color: white;
+    display: none;
+    padding-left: 0;
+    padding-right: 7.5rem;
+  }
+
+  nav.nb-bg.navbar.navbar-expand-xl.navbar-light.fixed-top > a.navbar-brand.top {
+    padding-right: 0;
   }
 
   a.dropdown-toggle.nav-link::after {

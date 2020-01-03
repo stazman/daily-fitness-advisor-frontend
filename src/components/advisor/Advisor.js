@@ -1,10 +1,10 @@
 import React from 'react'
 import { Col, Button } from 'react-bootstrap'
 import styled from 'styled-components'
+import { device } from '../styles/device'
 import ColumnStyles from '../styles/ColumnStyles'
 import ButtonStyles from '../styles/ButtonStyles'
 import TextStyles from '../styles/TextStyles'
-import { device } from '../styles/device'
 
 const MediaQueries = styled.div`
 
@@ -81,7 +81,7 @@ const MediaQueries = styled.div`
 
   @media ${device.desktop} {
     h4 {
-      font-size: 4.6rem;
+      font-size: 5.5rem;
     }
     a.btn-main {
       font-size: 4rem;

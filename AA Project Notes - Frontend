@@ -15,8 +15,10 @@ Establishes breakpoints for screen widths larger than 240px
 
   DONE Makes bottom navbar invisible for larger device sizes
 
+  DONE Sets, edits breakpoints for advisor, journal home page
 
   
+
   Sets breakpoints for journal, resources home page content
 
   Sets breakpoints for feature forms

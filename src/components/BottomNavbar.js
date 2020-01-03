@@ -27,13 +27,8 @@ const MediaQueries = styled.div`
   }
 
   @media ${device.laptop} {
-    a.navbar-brand.bottom {
-      font-size: 3.4rem;
-  }
-
-  @media ${device.custPos} {
-    a.navbar-brand.bottom {
-      visibility: hidden;
+    nav.nb-bg.navbar.navbar-expand-xl.navbar-light.fixed-bottom {
+        visibility: hidden;
   }
 `
   

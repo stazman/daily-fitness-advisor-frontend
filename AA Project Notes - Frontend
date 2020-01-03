@@ -12,8 +12,11 @@ Establishes breakpoints for screen widths larger than 240px
   DONE Adds feature links to top navbar for larger device sizes
 
   DONE Establishes breakpoints, visibility of top navbar links
-  
 
+  DONE Makes bottom navbar invisible for larger device sizes
+
+
+  
   Sets breakpoints for journal, resources home page content
 
   Sets breakpoints for feature forms

@@ -5,23 +5,12 @@ RESPONSIVE LAYOUT ACROSS APP
 
 CURRENT FRONTEND TASKS (ongoing):
 
-Establishes breakpoints for screen widths larger than 240px
 
-  DONE Adds feature links to dropdown menu
-
-  DONE Adds feature links to top navbar for larger device sizes
-
-  DONE Establishes breakpoints, visibility of top navbar links
-
-  DONE Makes bottom navbar invisible for larger device sizes
-
-  DONE Sets, edits breakpoints for advisor, journal home page
-
-  DONE Sets, edits breakpoints for resources home page
-
-
-
-  Sets breakpoints for feature forms
+Sets breakpoints for feature forms
+ 
+  DONE Sets base styles for food advisor form
+  
+  Sets, edits text styles breakpoints for food advisor form
 
   Sets breakpoints for feature results pages
 
@@ -127,6 +116,22 @@ Responsive Layout Across App
   DONE Removes unneeded, adds custom device categories
   DONE Adjusts nav brand font sizing for aesthetic proportionality
   DONE Sets breakpoints for font sizing, visibility
+
+Establishes breakpoints for screen widths larger than 240px
+
+  DONE Adds feature links to dropdown menu
+
+  DONE Adds feature links to top navbar for larger device sizes
+
+  DONE Establishes breakpoints, visibility of top navbar links
+
+  DONE Makes bottom navbar invisible for larger device sizes
+
+  DONE Sets, edits breakpoints for advisor, journal home page
+
+  DONE Sets, edits breakpoints for resources home page
+
+
 
 
 

@@ -29,11 +29,21 @@ const TextStyles = styled.div`
   }
   
   h5 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    padding: 0;
   }
 
   label.form-label {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 135%;
+  }
+
+  input[type='radio'] { 
+    transform: scale(.8);
+  }
+
+  label.form-check-label {
+    font-size: 1rem;
   }
 `
 

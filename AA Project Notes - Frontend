@@ -12,6 +12,16 @@ Sets breakpoints for feature forms
 
   DONE Styles, stubs breakpoints for food advisor form
   
+
+  DONE Sets base font sizes, spacing to improve viewing on smaller devices
+
+
+  
+  
+  
+
+
+
   Sets, edits text styles breakpoints for food advisor form
 
   Sets breakpoints for feature results pages
@@ -19,12 +29,11 @@ Sets breakpoints for feature forms
 
 
 
+  Increase sizes of base styles for all home pages for smaller device widths
 
-  Increases base button link sizes
-  
-  
-  Adjusts spacing in BottomNavbar for responsiveness
-  
+  Increase breakpoints on all home pages for smaller device widths
+
+
 
 
 

@@ -15,12 +15,12 @@ const NavbarStyles = styled.div`
   }
 
   a.navbar-brand.top {
-    font-size: 2rem;
-    padding: 0rem;
+    font-size: 3rem;
+    padding-left: 1rem;
   }
 
   a.navbar-brand.bottom {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-right: 0;
     padding: .2rem;
   }

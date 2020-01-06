@@ -8,8 +8,8 @@ const size = {
   laptop: "1024px",
   custLaptopPos1: "1200px",
   custLaptopPos2: "1328px",
-  custLaptopPos3: "1600px",
   laptopL: "1440px",
+  custLaptopPos3: "1600px",
   desktop: "2560px"
 };
 
@@ -23,7 +23,7 @@ export const device = {
   laptop: `(min-width: ${size.laptop})`,
   custLaptopPos1: `(min-width: ${size.custLaptopPos1})`,
   custLaptopPos2: `(min-width: ${size.custLaptopPos2})`,
-  custLaptopPos3: `(min-width: ${size.custLaptopPos3})`,
   laptopL: `(min-width: ${size.laptopL})`,
+  custLaptopPos3: `(min-width: ${size.custLaptopPos3})`,
   desktop: `(min-width: ${size.desktop})`
 };

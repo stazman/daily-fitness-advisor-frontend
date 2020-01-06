@@ -33,26 +33,22 @@ const NavbarStyles = styled.div`
     padding-right: 7.5rem;
   }
 
-  nav.nb-bg.navbar.navbar-expand-xl.navbar-light.fixed-top > a.navbar-brand.top {
-    padding-right: 0;
-  }
-
   a.dropdown-toggle.nav-link::after {
     position: fixed;
-    right: 1em;
-    top: 1em;
+    right: .5em;
+    top: .6em;
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 4rem;
   }
   
   div.mr-auto.navbar-nav {
     position: fixed;
-    top: 2em;
-    right: 2em;
+    top: 4.5rem;
+    right: 1.5rem;
   }
 
   a.dropdown-item {
-    font-size: 1.6rem;
+    font-size: 3rem;
   }
 `
 export default NavbarStyles

@@ -8,22 +8,22 @@ const MediaQueries = styled.div`
 
   @media ${device.mobileS} {
     a.navbar-brand.bottom {
-      font-size: 1.4rem;
+      font-size: 2.4rem;
   }
 
   @media ${device.mobileM} {
     a.navbar-brand.bottom {
-      font-size: 1.8rem;
+      font-size: 2.8rem;
   }
 
   @media ${device.tabletS} {
     a.navbar-brand.bottom {
-      font-size: 2.2rem;
+      font-size: 3.2rem;
   }
 
   @media ${device.tabletL} {
     a.navbar-brand.bottom {
-      font-size: 2.8rem;
+      font-size: 3.6rem;
   }
 
   @media ${device.laptop} {
@@ -38,10 +38,10 @@ const BottomNavBar = () => {
       <MediaQueries>
         <NavbarStyles>
           <Navbar expand='xl' className='nb-bg' fixed='bottom'>
-            <Navbar.Brand href='/tracker_home' className='bottom'>Trackers</Navbar.Brand>
-            <Navbar.Brand href='/journal_home' className='bottom'>Journal</Navbar.Brand>
-            <Navbar.Brand href='/resource_home' className='bottom'>Resources</Navbar.Brand>
-            <Navbar.Brand href='/community_home'className='bottom'>Community</Navbar.Brand>
+            <Navbar.Brand href='/tracker_home' className='bottom'>Track</Navbar.Brand>
+            <Navbar.Brand href='/journal_home' className='bottom'>Journ</Navbar.Brand>
+            <Navbar.Brand href='/resource_home' className='bottom'>Res</Navbar.Brand>
+            <Navbar.Brand href='/community_home'className='bottom'>Comm</Navbar.Brand>
           </Navbar>
         </NavbarStyles>
       </MediaQueries>

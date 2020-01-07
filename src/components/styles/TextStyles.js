@@ -34,8 +34,7 @@ const TextStyles = styled.div`
   }
 
   label.form-label {
-    font-size: 2.4rem;
-    line-height: 125%;
+    font-size: 2.7rem;
   }
 
   input[type='radio'] { 
@@ -56,6 +55,7 @@ const TextStyles = styled.div`
 
   small.form-text {
     font-size: 1.8rem;
+    line-height: 125%;
   }
 `
 

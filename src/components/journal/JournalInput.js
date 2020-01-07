@@ -2,9 +2,80 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addJournalEntry } from '../../actions/addJournalEntry'
 import { Row, Form, Button } from 'react-bootstrap'
+import styled from 'styled-components'
+import { device } from '../styles/device'
 import RowStyles from '../styles/RowStyles'
 import ButtonStyles from '../styles/ButtonStyles'
 import TextStyles from '../styles/TextStyles'
+
+const MediaQueries = styled.div`
+
+  @media ${device.mobileM} {
+    textarea {
+      font-size: 2.8rem;
+    }
+    small.form-text {
+      font-size: 2.4rem;
+    }
+    button.btn-submit {
+      font-size: 2.7rem;
+    }    
+  }
+
+  @media ${device.mobileL} {
+    textarea {
+      font-size: 3rem;
+    }
+    small.form-text {
+      font-size: 2.4rem;
+    }
+    button.btn-submit {
+      font-size: 3rem;
+    }    
+  }
+
+  @media ${device.tabletS} {
+    textarea {
+      font-size: 3.2rem;
+    }
+    small.form-text {
+      font-size: 2.2rem;
+    }    
+  }
+  
+  @media ${device.laptop} {
+    textarea {
+      font-size: 3.6rem;
+    }
+    small.form-text {
+      font-size: 2.4rem;
+    }    
+  }
+
+  @media ${device.laptopL} {
+    textarea {
+      font-size: 4rem;
+    }
+    small.form-text {
+      font-size: 2.8rem;
+    }
+    button.btn-submit {
+      font-size: 3.4rem;
+    }        
+  }
+
+  @media ${device.desktop} {
+    textarea {
+      font-size: 5rem;
+    }
+    small.form-text {
+      font-size: 3.4rem;
+    }
+    button.btn-submit {
+      font-size: 3.8rem;
+    }            
+  }
+`
 
 class JournalInput extends Component {
 
@@ -28,38 +99,39 @@ class JournalInput extends Component {
 
   render(){
     return (
-      <RowStyles>
-        <ButtonStyles>
-          <TextStyles>
-          
-            <Row className='left-justified-row-form'>
+      <MediaQueries>
+        <RowStyles>
+          <ButtonStyles>
+            <TextStyles>
+            
+              <Row className='left-justified-row-form'>
 
-              <Form onSubmit={this.handleSubmit}>
-                <Form.Group controlId='formJournalEntryl'>
-                  <Form.Label>Add a Journal Entry</Form.Label>
+                <Form onSubmit={this.handleSubmit}>
+                  <Form.Group controlId='formJournalEntryl'>
+                    <Form.Control 
+                      as='textarea' 
+                      type='textarea'
+                      rows='10'
+                      cols='110'
+                      placeholder='Write a new journal entry here ...'
+                      onChange={e => this.handleChange(e)}
+                      value={this.state.content}
+                    />
+                    <Form.Text>                
+                      Keep note of your progress and experience!
+                    </Form.Text>
+                  </Form.Group>
                   <br></br>
-                  <Form.Control 
-                    as='textarea' 
-                    type='textarea'
-                    rows='6'
-                    cols='110'
-                    placeholder='Write your journal entry here ...'
-                    onChange={e => this.handleChange(e)}
-                    value={this.state.content}
-                  />
-                  <Form.Text>                
-                    Keep note of your progress and thoughts!
-                  </Form.Text>
-                </Form.Group>
-                <Button className='btn-submit' type='submit'>
-                  Submit
-                </Button>
-              </Form>
-            </Row>
+                  <Button className='btn-submit' type='submit'>
+                    Submit
+                  </Button>
+                </Form>
+              </Row>
 
-          </TextStyles>
-        </ButtonStyles>
-      </RowStyles>
+            </TextStyles>
+          </ButtonStyles>
+        </RowStyles>
+      </MediaQueries>
     )
   }
 }

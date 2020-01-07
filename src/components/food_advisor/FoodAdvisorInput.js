@@ -12,97 +12,113 @@ const MediaQueries = styled.div`
 
   @media ${device.mobileS} {
     label.form-label {
-      font-size: 1.2rem;
-      line-height: 135%;
+      font-size: 2.7rem;
     }
     input[type='radio'] { 
-      transform: scale(.8);
+      transform: scale(1.4);
     }
     label.form-check-label {
-      font-size: 1rem;
+      font-size: 2.5rem;
     }
-    a.btn-submit {
-      font-size: 1.6rem;
+    button.btn-submit {
+      font-size: 2.7rem;
     }
   }
 
   @media ${device.mobileM} {
     label.form-label {
-      font-size: 1.2rem;
-      line-height: 135%;
+      font-size: 2.8rem;
+      line-height: 115%;
     }
     input[type='radio'] { 
-      transform: scale(.8);
+      transform: scale(1.6);
+      top: 30%;
     }
     label.form-check-label {
-      font-size: 1rem;
+      font-size: 2.6rem;
     }
-    a.btn-submit {
-      font-size: 1.6rem;
+    button.btn-submit {
+      font-size: 2.8rem;
     }
   }
 
   @media ${device.tabletS} {
     label.form-label {
-      font-size: 1.2rem;
-      line-height: 135%;
+      font-size: 2.9rem;
+      line-height: 125%;
     }
     input[type='radio'] { 
-      transform: scale(.8);
+      transform: scale(1.8);
     }
     label.form-check-label {
-      font-size: 1rem;
+      font-size: 2.7rem;
     }
-    a.btn-submit {
-      font-size: 1.6rem;
+    button.btn-submit {
+      font-size: 2.9rem;
     }
   }
 
   @media ${device.tabletL} {
     label.form-label {
-      font-size: 1.2rem;
-      line-height: 135%;
+      font-size: 3.2rem;
+      line-height: 125%;
     }
     input[type='radio'] { 
-      transform: scale(.8);
+      transform: scale(1.8);
     }
     label.form-check-label {
-      font-size: 1rem;
+      font-size: 2.8rem;
     }
-    a.btn-submit {
-      font-size: 1.6rem;
+    button.btn-submit {
+      font-size: 3.2rem;
     }
   }
 
   @media ${device.laptop} {
     label.form-label {
-      font-size: 1.2rem;
-      line-height: 135%;
+      font-size: 3.4rem;
     }
     input[type='radio'] { 
-      transform: scale(.8);
+      transform: scale(2);
+      top: 30%;
     }
     label.form-check-label {
-      font-size: 1rem;
+      font-size: 3rem;
     }
-    a.btn-submit {
-      font-size: 1.6rem;
+    button.btn-submit {
+      font-size: 3.4rem;
     }
   }
 
-  @media ${device.desktop} {
+  @media ${device.laptopL} {
     label.form-label {
-      font-size: 1.2rem;
-      line-height: 135%;
+      font-size: 3.4rem;
     }
     input[type='radio'] { 
-      transform: scale(.8);
+      transform: scale(2);
+      top: 30%;
     }
     label.form-check-label {
-      font-size: 1rem;
+      font-size: 3rem;
     }
-    a.btn-submit {
-      font-size: 1.6rem;
+    button.btn-submit {
+      font-size: 3.6rem;
+    }
+  }
+
+  @media ${device.custLaptopPos3} {
+    label.form-label {
+      font-size: 3.6rem;
+    }
+    input[type='radio'] { 
+      transform: scale(2);
+      top: 30%;
+    }
+    label.form-check-label {
+      font-size: 3.2rem;
+    }
+    button.btn-submit {
+      font-size: 3.6rem;
     }
   }
 `
@@ -248,7 +264,7 @@ class FoodAdvisorInput extends React.Component {
                         />
                       </div>
                     ))}
-                  <br></br>
+                  <br></br><br></br>
 
                   <Button className='btn-submit' type='submit'>
                     Get Advice

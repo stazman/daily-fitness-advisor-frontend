@@ -111,7 +111,7 @@ class JournalInput extends Component {
                     <Form.Control 
                       as='textarea' 
                       type='textarea'
-                      rows='10'
+                      rows='8'
                       cols='110'
                       placeholder='Write a new journal entry here ...'
                       onChange={e => this.handleChange(e)}

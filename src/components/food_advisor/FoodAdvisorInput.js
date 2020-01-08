@@ -11,28 +11,38 @@ import TextStyles from '../styles/TextStyles'
 const MediaQueries = styled.div`
 
   @media ${device.mobileS} {
+    button.btn-submit {
+      font-size: 2rem;
+  }
+
+  @media ${device.mobileS} {
+    div.row.centered-row-form {
+      padding-top: 8rem;
+  }
+
+  @media ${device.tabletS} {
     label.form-label {
-      font-size: 2.7rem;
+      font-size: 2.4rem;
     }
     input[type='radio'] { 
       transform: scale(1.4);
     }
     label.form-check-label {
-      font-size: 2.5rem;
+      font-size: 2.2rem;
     }
     button.btn-submit {
-      font-size: 2.7rem;
+      font-size: 2.4rem;
     }
   }
 
-  @media ${device.mobileM} {
+  @media ${device.tabletL} {
     label.form-label {
       font-size: 2.8rem;
-      line-height: 115%;
+      line-height: 130%;
     }
     input[type='radio'] { 
-      transform: scale(1.6);
-      top: 30%;
+      transform: scale(1.8);
+      top: 25%;
     }
     label.form-check-label {
       font-size: 2.6rem;
@@ -42,83 +52,35 @@ const MediaQueries = styled.div`
     }
   }
 
-  @media ${device.tabletS} {
+  @media ${device.laptop} {
     label.form-label {
-      font-size: 2.9rem;
-      line-height: 125%;
+      font-size: 3rem;
     }
     input[type='radio'] { 
-      transform: scale(1.8);
-    }
-    label.form-check-label {
-      font-size: 2.7rem;
-    }
-    button.btn-submit {
-      font-size: 2.9rem;
-    }
-  }
-
-  @media ${device.tabletL} {
-    label.form-label {
-      font-size: 3.2rem;
-      line-height: 125%;
-    }
-    input[type='radio'] { 
-      transform: scale(1.8);
+      transform: scale(2);
+      top: 30%;
     }
     label.form-check-label {
       font-size: 2.8rem;
     }
     button.btn-submit {
-      font-size: 3.2rem;
-    }
-  }
-
-  @media ${device.laptop} {
-    label.form-label {
-      font-size: 3.4rem;
-    }
-    input[type='radio'] { 
-      transform: scale(2);
-      top: 30%;
-    }
-    label.form-check-label {
       font-size: 3rem;
-    }
-    button.btn-submit {
-      font-size: 3.4rem;
-    }
-  }
-
-  @media ${device.laptopL} {
-    label.form-label {
-      font-size: 3.4rem;
-    }
-    input[type='radio'] { 
-      transform: scale(2);
-      top: 30%;
-    }
-    label.form-check-label {
-      font-size: 3rem;
-    }
-    button.btn-submit {
-      font-size: 3.6rem;
     }
   }
 
   @media ${device.custLaptopPos3} {
     label.form-label {
-      font-size: 3.6rem;
+      font-size: 3.2rem;
     }
     input[type='radio'] { 
       transform: scale(2);
       top: 30%;
     }
     label.form-check-label {
-      font-size: 3.2rem;
+      font-size: 3rem;
     }
     button.btn-submit {
-      font-size: 3.6rem;
+      font-size: 3.2rem;
     }
   }
 `

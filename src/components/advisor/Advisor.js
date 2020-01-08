@@ -8,68 +8,106 @@ import TextStyles from '../styles/TextStyles'
 
 const MediaQueries = styled.div`
 
-  @media ${device.mobileS} {
-    h4 {
-      font-size: 2rem;
+  @media ${device.custMobileWidth1} {
+    h5 {
+      font-size: 3.4rem;
     }
     a.btn-main {
-      font-size: 1.6rem;
+      font-size: 3.4rem;
     }
     div.col-lg-12.button-col {
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  @media ${device.mobileS} {
+    h5 {
+      font-size: 3.4rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+    a.btn-main {
+      font-size: 4.2rem;
+    }
+    div.col-lg-12.button-col {
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  @media ${device.custMobileWidth2} {
+    h5 {
+      font-size: 4.4rem;
+    }
+    a.btn-main {
+      font-size: 4.2rem;
+    }
+    div.col-lg-12.button-col {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
     }
   }
 
   @media ${device.mobileM} {
-    h4 {
-      font-size: 2.3rem;
+    h5 {
+      font-size: 4rem;
+      margin-bottom: 1.6rem;
     }
     a.btn-main {
-      font-size: 2rem;
+      font-size: 4.5rem;
     }
     div.col-lg-12.button-col {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
     }
   }
 
   @media ${device.mobileL} {
-    h4 {
-      font-size: 2.4rem;
+    h5 {
+      font-size: 4.6rem;
+    }
+    a.btn-main {
+      font-size: 5.7rem;
+    }
   }
 
   @media ${device.tabletS} {
-    h4 {
-      font-size: 2.6rem;
+    h5 {
+      font-size: 4.5rem;
     }
     a.btn-main {
-      font-size: 2.6rem;
+      font-size: 4rem;
+    }
+    div.col-lg-12.button-col {
+      padding-top: 5rem;
+      padding-bottom: 4rem;
     }
   }
 
   @media ${device.tabletL} {
-    h4 {
-      font-size: 3rem;
+    h5 {
+      font-size: 5rem;
+      line-height: 140%;
     }
     a.btn-main {
-      font-size: 2.8rem;
+      font-size: 4.5rem;
     }
     div.col-lg-12.button-col {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
+      padding-top: 5.5rem;
+      padding-bottom: 4.8rem;
     }
   }
 
   @media ${device.laptop} {
-    h4 {
-      font-size: 4rem;
+    h5 {
+      font-size: 5.8rem;
     }
     a.btn-main {
-      font-size: 3.6rem;
+      font-size: 4.6rem;
     }
     div.col-lg-12.button-col {
-      padding-bottom: 7rem;
+      padding-bottom: 6rem;
     }
   }
 
@@ -80,7 +118,7 @@ const MediaQueries = styled.div`
   }
 
   @media ${device.desktop} {
-    h4 {
+    h5 {
       font-size: 5.5rem;
     }
     a.btn-main {
@@ -90,10 +128,6 @@ const MediaQueries = styled.div`
       padding-top: 8.5rem;
       padding-bottom: 10rem;
     }
-    div.sc-bxivhb.icWcwL {
-      width: 120%;
-      margin-left: -16rem;
-    } 
   }
 `
 
@@ -104,9 +138,9 @@ const Advisor = () => {
         <ButtonStyles>
           <TextStyles>
             <Col lg={12} className='col-lg-12 message-col'>
-                <h4 style={{lineHeight: '150%'}}>
-                  Just click to answer a few questions, get advice, and stay fit!
-                </h4>
+                <h5>
+                  Just click to answer a few questions and stay fit!
+                </h5>
             </Col>
 
             <Col lg={12} className='col-lg-12 button-col'>

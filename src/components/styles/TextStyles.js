@@ -23,7 +23,7 @@ const TextStyles = styled.div`
   }
 
   h4 {
-    font-size: 3.8rem;
+    font-size: 3rem;
   }
     
   h5 {

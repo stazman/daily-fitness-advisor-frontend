@@ -23,15 +23,11 @@ CURRENT FRONTEND TASKS (ongoing):
   DONE Sets breakpoints in individual journal entry page  
   DONE Edits, adds breakpoints in all resources page
   DONE Edits base styles for feature home pages
-
- 
   DONE Edits, adds breakpoints in advisor home page
+  DONE Edits, adds breakpoints in journal home page
 
   
-  
-  Edits, adds breakpoints in journal home page
-
-  Edits, adds breakpoints in resources home page
+  DONE Edits, removes breakpoints in resources, journal home pages
 
 
 

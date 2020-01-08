@@ -19,18 +19,12 @@ CURRENT FRONTEND TASKS (ongoing):
   DONE Edits, adds to text, button, column style components
   DONE Removes, adds custom device widths
   DONE Edits, adds breakpoints in new resource form
-
-
   DONE Sets breakpoints in all journal entries page
-
-
-  Sets breakpoints in individual journal entry page
+  
+  DONE Sets breakpoints in individual journal entry page
+  
   
   Edits, adds breakpoints in all resources page
-
-
-
-
 
   Increase sizes of base styles for all home pages for smaller device widths
 

@@ -12,10 +12,10 @@ const MediaQueries = styled.div`
 
   @media ${device.mobileS} {
     label.form-label {
-      font-size: 3.6rem;
+      font-size: 3rem;
     }
     textarea {
-      font-size: 2.8rem;
+      font-size: 2.4rem;
     }
     small.form-text {
       font-size: 2.4rem;
@@ -24,63 +24,10 @@ const MediaQueries = styled.div`
       font-size: 2.7rem;
     }    
   }
-
-  @media ${device.mobileM} {
-    label.form-label {
-      font-size: 3.8rem;
-    }
-  }
   
-  @media ${device.mobileL} {
-    label.form-label {
-      font-size: 4.2rem;
-    }
-    textarea {
-      font-size: 3rem;
-    }
-    small.form-text {
-      font-size: 2.4rem;
-    }
-    button.btn-submit {
-      font-size: 3rem;
-    }    
-  }
-
-  @media ${device.tabletS} {
-    label.form-label {
-      font-size: 4.4rem;
-    }
-    textarea {
-      font-size: 3rem;
-    }
-    small.form-text {
-      font-size: 2.5rem;
-      line-height: 115%;
-    }
-    button.btn-submit {
-      font-size: 3.2rem;
-    }    
-  }
-  
-  @media ${device.tabletL} {
-    label.form-label {
-      font-size: 4.8rem;
-    }
-    textarea {
-      font-size: 3.2rem;
-    }
-    small.form-text {
-      font-size: 2.75rem;
-      line-height: 120%;
-    }
-    button.btn-submit {
-      font-size: 3.4rem;
-    }    
-  }
-
   @media ${device.laptop} {
     textarea {
-      font-size: 5rem;
+      font-size: 4rem;
     }
     small.form-text {
       font-size: 2.8rem;
@@ -88,27 +35,6 @@ const MediaQueries = styled.div`
     button.btn-submit {
       font-size: 3.6rem;
     }        
-  }
-
-  @media ${device.laptopL} {
-    button.btn-submit {
-      font-size: 3.8rem;
-    }
-    small.form-text {
-      line-height: 130%;
-    }     
-  }
-
-  @media ${device.desktop} {
-    label.form-label {
-      font-size: 6.4rem;
-    }
-    small.form-text {
-      font-size: 3.6rem;
-    }
-    button.btn-submit {
-      font-size: 5rem;
-    }            
   }
 `
 

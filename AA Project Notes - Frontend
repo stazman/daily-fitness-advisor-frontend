@@ -18,11 +18,11 @@ CURRENT FRONTEND TASKS (ongoing):
   DONE Edits font sizes, spacing in food advisor, new journal entry form breakpoints  
   DONE Edits, adds to text, button, column style components
   DONE Removes, adds custom device widths
-  
   DONE Edits, adds breakpoints in new resource form
 
 
-  Sets breakpoints in all journal entries page
+  DONE Sets breakpoints in all journal entries page
+
 
   Sets breakpoints in individual journal entry page
   

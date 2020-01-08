@@ -9,7 +9,7 @@ const ButtonStyles = styled.div`
   }
 
   .btn-submit {
-    font-size: 2.4rem;
+    font-size: 2rem;
     background-color: navy;
     color: white;
   }

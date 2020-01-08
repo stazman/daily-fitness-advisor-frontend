@@ -12,11 +12,6 @@ const ColumnStyles = styled.div`
     padding-top: 3rem;
     text-align: center;
   }
-
-  .col.bottom-visible {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
-  }
 `
 
 export default ColumnStyles

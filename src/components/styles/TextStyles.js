@@ -3,7 +3,9 @@ import styled from 'styled-components'
 const TextStyles = styled.div`
 
   a {
-    color: navy;
+    color: white;
+    font-size: 2.2rem;
+    line-height: 120%;
   }
 
   li {
@@ -20,21 +22,28 @@ const TextStyles = styled.div`
     }
   }
 
-  h3 {
-    font-size: 1.8rem;
-  }
-  
   h4 {
-    font-size: 1.6rem;
+    font-size: 3.8rem;
   }
-  
+    
   h5 {
     font-size: 3rem;
+    line-height: 110%;
     padding: 0;
   }
 
+  h6 {
+    font-size: 2.8rem;
+  }
+  
+  p {
+    font-size: 2.8rem;
+    line-height: 110%;
+  }
+
   label.form-label {
-    font-size: 2.7rem;
+    font-size: 2rem;
+    line-height: 125%;
   }
 
   input[type='radio'] { 
@@ -44,7 +53,7 @@ const TextStyles = styled.div`
   }
   
   label.form-check-label {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   textarea {

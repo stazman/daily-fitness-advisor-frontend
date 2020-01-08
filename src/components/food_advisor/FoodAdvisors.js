@@ -25,26 +25,11 @@ const MediaQueries = styled.div`
   @media ${device.tabletS} {
     h5 {
       font-size: 4.4rem;
-    }
-    div.advice-container {
-      margins: 0;
-      padding-bottom: 4em;
-    }  
   }
 
   @media ${device.tabletL} {
     h5 {
       font-size: 4.8rem;
-    }
-    div.advice-container {
-      margins: 0;
-      padding-bottom: 5em;
-  }  
-
-  @media ${device.custLaptopPos2} {
-    div.advice-container {
-      margins: 0;
-      padding-bottom: 7em;
   }
 `
 

@@ -20,15 +20,15 @@ CURRENT FRONTEND TASKS (ongoing):
   DONE Removes, adds custom device widths
   DONE Edits, adds breakpoints in new resource form
   DONE Sets breakpoints in all journal entries page
-  DONE Sets breakpoints in individual journal entry page
-  
+  DONE Sets breakpoints in individual journal entry page  
   DONE Edits, adds breakpoints in all resources page
+  
+  DONE Edits base styles for feature home pages
+
+  
 
 
-
-
-  Increase sizes of base styles for all home pages for smaller device widths
-
+  
   Increase breakpoints on all home pages for smaller device widths
 
 

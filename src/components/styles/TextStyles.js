@@ -27,8 +27,8 @@ const TextStyles = styled.div`
   }
     
   h5 {
-    font-size: 3rem;
-    line-height: 110%;
+    font-size: 2.6rem;
+    line-height: 115%;
     padding: 0;
   }
 

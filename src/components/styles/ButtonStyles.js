@@ -5,7 +5,7 @@ const ButtonStyles = styled.div`
   .btn-main {
     background-color: navy;
     color: white;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
   }
 
   .btn-submit {

@@ -1,33 +1,15 @@
 CURRENT FEATURE (ongoing):
 
-RESPONSIVE LAYOUT ACROSS APP
+JOURNALS
 
 
 CURRENT FRONTEND TASKS (ongoing):
- 
-  DONE Sets base styles for food advisor form
-  DONE Styles, stubs breakpoints for food advisor form
-  DONE Sets base font sizes, spacing to improve viewing on smaller devices
-  DONE Further sets base font sizes, spacing to improve viewing on smaller devices
-  DONE Edits, further sets font sizes, spacing in top navbar breakpoints
-  DONE Edits, further sets font sizes, spacing in food advisor form breakpoints
-  DONE Edits font sizes in bottom navbar breakpoints
-  DONE Edits, further sets font sizes, spacing in food advisor form breakpoints
-  DONE Sets breakpoints for, edits content of new journal entry form
-  DONE Sets breakpoints for, edits content of new resource form
-  DONE Edits font sizes, spacing in food advisor, new journal entry form breakpoints  
-  DONE Edits, adds to text, button, column style components
-  DONE Removes, adds custom device widths
-  DONE Edits, adds breakpoints in new resource form
-  DONE Sets breakpoints in all journal entries page
-  DONE Sets breakpoints in individual journal entry page  
-  DONE Edits, adds breakpoints in all resources page
-  DONE Edits base styles for feature home pages
-  DONE Edits, adds breakpoints in advisor home page
-  DONE Edits, adds breakpoints in journal home page
 
-  
-  DONE Edits, removes breakpoints in resources, journal home pages
+
+Add date to journal feature
+
+  DONE New entry form shows current date; date for new entry is persisted on submit
+
 
 
 
@@ -88,8 +70,6 @@ JOURNAL
 
   Adds search bar to Journal
 
-  Add date to journal feature
-
 
 
 OVERALL APP
@@ -103,6 +83,7 @@ OVERALL APP
 
 
 COMPLETED TASKS: XXX
+
 
 Responsive Layout Across App
   DONE Sets styling for buttons, column spacing, edits, styles message on advisor home page, for 240pxm lowest breakpoint
@@ -125,17 +106,33 @@ Responsive Layout Across App
 Establishes breakpoints for screen widths larger than 240px
 
   DONE Adds feature links to dropdown menu
-
   DONE Adds feature links to top navbar for larger device sizes
-
   DONE Establishes breakpoints, visibility of top navbar links
-
   DONE Makes bottom navbar invisible for larger device sizes
-
   DONE Sets, edits breakpoints for advisor, journal home page
-
   DONE Sets, edits breakpoints for resources home page
 
+  DONE Sets base styles for food advisor form
+  DONE Styles, stubs breakpoints for food advisor form
+  DONE Sets base font sizes, spacing to improve viewing on smaller devices
+  DONE Further sets base font sizes, spacing to improve viewing on smaller devices
+  DONE Edits, further sets font sizes, spacing in top navbar breakpoints
+  DONE Edits, further sets font sizes, spacing in food advisor form breakpoints
+  DONE Edits font sizes in bottom navbar breakpoints
+  DONE Edits, further sets font sizes, spacing in food advisor form breakpoints
+  DONE Sets breakpoints for, edits content of new journal entry form
+  DONE Sets breakpoints for, edits content of new resource form
+  DONE Edits font sizes, spacing in food advisor, new journal entry form breakpoints  
+  DONE Edits, adds to text, button, column style components
+  DONE Removes, adds custom device widths
+  DONE Edits, adds breakpoints in new resource form
+  DONE Sets breakpoints in all journal entries page
+  DONE Sets breakpoints in individual journal entry page  
+  DONE Edits, adds breakpoints in all resources page
+  DONE Edits base styles for feature home pages
+  DONE Edits, adds breakpoints in advisor home page
+  DONE Edits, adds breakpoints in journal home page
+  DONE Edits, removes breakpoints in resources, journal home pages
 
 
 

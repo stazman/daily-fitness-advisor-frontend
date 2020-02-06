@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import Moment from 'react-moment'
+import DatePicker from "react-datepicker"
 import { addJournalEntry } from '../../actions/addJournalEntry'
 import { Row, Form, Button } from 'react-bootstrap'
 import styled from 'styled-components'
@@ -80,8 +82,15 @@ const MediaQueries = styled.div`
 class JournalInput extends Component {
 
   state = {
-    content: ''
+    content: '',
+    date: new Date()
   }
+
+  handleChange = date => {
+    this.setState({
+      date: date
+    });
+  };
 
   handleChange = (e) => {
     this.setState({
@@ -98,7 +107,9 @@ class JournalInput extends Component {
   }
 
   render(){
+
     return (
+
       <MediaQueries>
         <RowStyles>
           <ButtonStyles>
@@ -106,8 +117,22 @@ class JournalInput extends Component {
             
               <Row className='left-justified-row-form'>
 
+                <Moment format='MMMM D, YYYY'></Moment>
+                
                 <Form onSubmit={this.handleSubmit}>
-                  <Form.Group controlId='formJournalEntryl'>
+                  
+                  <Form.Group controlId='formJournalEntry'>
+                  
+                    <div style={{display: 'none'}}>
+                      <DatePicker
+                        selected={this.state.date}
+                        onChange={this.handleChange}
+                        disabled={true}
+                        readOnly={true}
+                        plaintext={true}
+                      />
+                    </div>
+
                     <Form.Control 
                       as='textarea' 
                       type='textarea'
@@ -136,4 +161,4 @@ class JournalInput extends Component {
   }
 }
 
-export default connect(null, {addJournalEntry})(JournalInput);
+export default connect(null, {addJournalEntry})(JournalInput)

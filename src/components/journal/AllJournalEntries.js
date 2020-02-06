@@ -71,9 +71,10 @@ class AllJournalEntries extends React.Component {
                           <NavLink 
                             exact to={`/journals/${journalEntry.id}`}
                           >
-                            {journalEntry.content}
+                            {journalEntry.date}
                           </NavLink>
                           <br></br><br></br>
+                          {journalEntry.content}
                           <Button 
                             type='submit'
                             className='btn-submit'

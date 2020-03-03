@@ -10,6 +10,7 @@ import ColumnStyles from '../styles/ColumnStyles'
 import ButtonStyles from '../styles/ButtonStyles'
 import TextStyles from '../styles/TextStyles'
 import Moment from 'react-moment'
+import 'moment-timezone';
 
 const MediaQueries = styled.div`
 

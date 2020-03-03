@@ -9,8 +9,12 @@ CURRENT FRONTEND TASKS (ongoing):
 Add date to journal feature
 
   DONE New entry form shows current date; date for new entry is persisted on submit
-
   DONE Date replaces content as link to individual journal entries
+
+  DONE Persisted entry dates show in readable format
+
+  Individual journal entry shows persisted date
+
 
 
 FUTURE TASKS (ongoing):

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { deleteJournalEntry } from '../../actions/deleteJournalEntry'
@@ -9,6 +9,7 @@ import RowStyles from '../styles/RowStyles'
 import ColumnStyles from '../styles/ColumnStyles'
 import ButtonStyles from '../styles/ButtonStyles'
 import TextStyles from '../styles/TextStyles'
+import Moment from 'react-moment'
 
 const MediaQueries = styled.div`
 
@@ -50,12 +51,13 @@ const MediaQueries = styled.div`
 `
 
 class AllJournalEntries extends React.Component {
-  
+    
   handleDelete = (journalEntry) => {
     this.props.deleteJournalEntry(journalEntry.id)
   }
 
   render(){
+
     return (
       <MediaQueries>
         <RowStyles>
@@ -71,10 +73,13 @@ class AllJournalEntries extends React.Component {
                           <NavLink 
                             exact to={`/journals/${journalEntry.id}`}
                           >
+                          <Moment format="MMMM D, YYYY">                          
                             {journalEntry.date}
+                          </Moment>
                           </NavLink>
                           <br></br><br></br>
                           {journalEntry.content}
+
                           <Button 
                             type='submit'
                             className='btn-submit'

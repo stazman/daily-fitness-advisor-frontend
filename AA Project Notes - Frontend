@@ -10,14 +10,23 @@ Add date to journal feature
 
   DONE New entry form shows current date; date for new entry is persisted on submit
   DONE Date replaces content as link to individual journal entries
-
   DONE Persisted entry dates show in readable format
+
+  DONE Improves font sizing, spacing for all journal entries
+
+  Improves font sizing for new journal entry form
+  
+  Formats time zone in journal input, output to CST
 
   Individual journal entry shows persisted date
 
 
 
 FUTURE TASKS (ongoing):
+
+JOURNALS
+
+Creates option for time zone choice for journal dates (to be replaced by field on account creation?)
 
 
 FOOD ADVISOR

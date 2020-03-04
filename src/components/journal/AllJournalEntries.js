@@ -60,6 +60,7 @@ class AllJournalEntries extends React.Component {
   render(){
 
     return (
+    
       <MediaQueries>
         <RowStyles>
           <ColumnStyles>
@@ -75,15 +76,20 @@ class AllJournalEntries extends React.Component {
                             exact to={`/journals/${journalEntry.id}`}
                           >
                           <Moment format="MMMM D, YYYY">                          
-                            {journalEntry.date}
+                            <h5>
+                              {journalEntry.date}
+                            </h5>
                           </Moment>
                           </NavLink>
-                          <br></br><br></br>
-                          {journalEntry.content}
+                          <br></br><br></br><br></br>
+                          <p>
+                            {journalEntry.content}
+                          </p>
+                          <br></br>
 
                           <Button 
                             type='submit'
-                            className='btn-submit'
+                            className='btn-submit-sm'
                             onClick={() => this.handleDelete(journalEntry)}
                           >
                             Delete

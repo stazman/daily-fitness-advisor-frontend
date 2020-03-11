@@ -19,7 +19,6 @@ const TextStyles = styled.div`
       1px -1px 0 #000,
       -1px 1px 0 #000,
       1px 1px 0 #000;
-    }
   }
 
   h4 {
@@ -65,6 +64,10 @@ const TextStyles = styled.div`
   small.form-text {
     font-size: 1.8rem;
     line-height: 125%;
+  }
+
+  time {
+    font-size: 3rem;
   }
 `
 

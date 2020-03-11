@@ -124,19 +124,21 @@ class JournalInput extends Component {
                   <Form.Group controlId='formJournalEntry'>
                   
                     <div style={{display: 'none'}}>
-                      <DatePicker
-                        selected={this.state.date}
-                        onChange={this.handleChange}
-                        disabled={true}
-                        readOnly={true}
-                        plaintext={true}
-                      />
+                      
+                        <DatePicker
+                          value={this.state.date}
+                          onChange={this.handleChange}
+                          disabled={true}
+                          readOnly={true}
+                          plaintext={true}
+                        />
+                    
                     </div>
 
-                    <Form.Control 
+                    <Form.Control style={{fontSize: '2rem'}}
                       as='textarea' 
                       type='textarea'
-                      rows='8'
+                      rows='12'
                       cols='110'
                       placeholder='Write a new journal entry here ...'
                       onChange={e => this.handleChange(e)}

@@ -1,14 +1,14 @@
-import React from 'react'
-import { connect } from 'react-redux'
-import { Route, Switch } from 'react-router-dom'
-import { fetchResources } from '../actions/fetchResources'
-import ResourceInput from '../components/resources/ResourceInput'
-import Resources from '../components/resources/Resources'
+import React from 'react';
+import { connect } from 'react-redux';
+import { Route, Switch } from 'react-router-dom';
+import { fetchResources } from '../actions/fetchResources';
+import ResourceInput from '../components/resources/ResourceInput';
+import Resources from '../components/resources/Resources';
 
 class ResourcesContainer extends React.Component {
 
   componentDidMount(){
-    this.props.fetchResources()
+    this.props.fetchResources();
   }
 
   render(){
@@ -25,14 +25,14 @@ class ResourcesContainer extends React.Component {
           />
         </Switch>
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = state => {
   return {
     resources: state.manageResources.resources
-  }
-}
+  };
+};
 
-export default connect(mapStateToProps, {fetchResources})(ResourcesContainer)
+export default connect(mapStateToProps, {fetchResources})(ResourcesContainer);

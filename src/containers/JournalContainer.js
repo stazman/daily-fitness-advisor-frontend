@@ -1,16 +1,16 @@
-import React from 'react'
-import { connect } from 'react-redux'
-import { Route, Switch } from 'react-router-dom'
-import { fetchJournalEntries } from '../actions/fetchJournalEntries'
-import JournalInput from '../components/journal/JournalInput'
-import AllJournalEntries from '../components/journal/AllJournalEntries'
-import JournalEntry from '../components/journal/JournalEntry'
+import React from 'react';
+import { connect } from 'react-redux';
+import { Route, Switch } from 'react-router-dom';
+import { fetchJournalEntries } from '../actions/fetchJournalEntries';
+import JournalInput from '../components/journal/JournalInput';
+import AllJournalEntries from '../components/journal/AllJournalEntries';
+import JournalEntry from '../components/journal/JournalEntry';
 
 
 class JournalContainer extends React.Component {
 
   componentDidMount(){
-    this.props.fetchJournalEntries()
+    this.props.fetchJournalEntries();
   }
 
   render(){
@@ -31,14 +31,14 @@ class JournalContainer extends React.Component {
           />
         </Switch>
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = state => {
   return {
     journalEntries: state.manageJournal.journalEntries
-  }
-}
+  };
+};
 
-export default connect(mapStateToProps, {fetchJournalEntries})(JournalContainer)
+export default connect(mapStateToProps, {fetchJournalEntries})(JournalContainer);
